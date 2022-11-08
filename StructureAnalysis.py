@@ -14,19 +14,19 @@ baseFASTA = dir + '/data/pep.FASTA'
 # descriptors to calculate
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
-def calc(data):
-    logp = Descriptors.MolLogP(data)
-    tpsa = Descriptors.TPSA(data)
-    hba = Lipinski.NumHAcceptors(data)
-    hbd = Lipinski.NumHDonors(data)
+def calc(mol):
+    logp = Descriptors.MolLogP(mol)
+    tpsa = Descriptors.TPSA(mol)
+    hba = Lipinski.NumHAcceptors(mol)
+    hbd = Lipinski.NumHDonors(mol)
     n = 0   # NN
     o = 0   # NO
-    for atom in data.GetAtoms():
+    for atom in mol.GetAtoms():
         if atom.GetSymbol() == 'N':
             n += 1
         elif atom.GetSymbol() == 'O':
             o += 1
-    no = Lipinski.NOCount(data)  # N+O
+    no = Lipinski.NOCount(mol)  # N+O
 
     return [logp,tpsa,hba,hbd,n,o,no]
 
@@ -35,35 +35,37 @@ def typeFilesCalc(data):
     ext = (os.path.basename(data)).split('.')[-1]
 
     if ext == 'pdb':
-        dataPDB = Chem.MolFromPDBFile(data)
-        PDBresult = pd.DataFrame(calc(dataPDB)).T
+        molPDB = Chem.MolFromPDBFile(data)
+        PDBresult = pd.DataFrame(calc(molPDB)).T
         PDBresult.columns = descriptors
         return PDBresult.to_csv('results/PDBresult.csv',index=False)
 
     elif ext == 'mol':
-        dataMol = Chem.MolFromMolFile(data)
-        MOLresult = pd.DataFrame(calc(dataMol)).T
+        molMol = Chem.MolFromMolFile(data)
+        MOLresult = pd.DataFrame(calc(molMol)).T
         MOLresult.columns = descriptors
         return MOLresult.to_csv('results/MOLresult.csv',index=False)
 
     elif ext == 'csv':
-        dataCSV = pd.read_csv(data)
+        molCSV = pd.read_csv(data)
         peptides = []
         CSVresult = []
 
-        for i in range(len(dataCSV)):
-            # removing line break
-            dataCSV.iloc[i][0] = str(dataCSV.iloc[i][0]).strip()
-            peptides.append(Chem.MolFromSequence(dataCSV.iloc[i][0]))
+        for i in range(len(molCSV)):
+            # removing break lines
+            molCSV.iloc[i][0] = str(molCSV.iloc[i][0]).strip()
+            peptides.append([molCSV.iloc[i][0],Chem.MolFromSequence(molCSV.iloc[i][0])])
 
         # removing invalids
-        peptides = pd.DataFrame(filter(lambda item: item is not None, peptides))
+        peptides = pd.DataFrame(peptides).dropna()
 
         for i in range(len(peptides)):
-            CSVresult.append(calc(peptides.iloc[i, 0]))
+            CSVresult.append(calc(peptides.iloc[i][1]))
 
         CSVresult = pd.DataFrame(CSVresult)
-        CSVresult.columns = descriptors
+        CSVresult = pd.concat([peptides[0],CSVresult], axis=1)
+        CSVresult.columns = ['Peptide'] + descriptors
+
         return CSVresult.to_csv('results/CSVresult.csv', index=False)
 
     else:
