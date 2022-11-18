@@ -14,6 +14,27 @@ baseFASTA = dir + '/data/pep.FASTA'
 # descriptors to calculate
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
+# modified-natural peptides filter
+def mn(data):
+    oneLetterCode = ['A', 'R', 'N', 'D', 'B', 'C', 'E', 'Q', 'Z', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W',
+                     'Y', 'V']
+    peptides = [x for x in pd.read_csv(dir + '/data/brainPeps..csv').iloc[:, 0]]
+    natural = []
+    modified = []
+
+    for peptide in peptides:
+        if type(peptide) is str:
+            pep = list(peptide)
+            for letter in pep:
+                verify = letter in oneLetterCode
+            if verify is False:
+                modified.append(peptide)
+                pass
+            else:
+                natural.append(peptide)
+    return natural
+
+# descriptors calc (rdkit_mol)
 def calc(mol):
     logp = round(Descriptors.MolLogP(mol),3)
     tpsa = round(Descriptors.TPSA(mol),3)
@@ -30,6 +51,7 @@ def calc(mol):
 
     return [logp,tpsa,hba,hbd,n,o,no]
 
+# calculate descriptors by type
 def typeFilesCalc(data):
     # extension file
     ext = (os.path.basename(data)).split('.')[-1]
@@ -56,8 +78,8 @@ def typeFilesCalc(data):
             molCSV.iloc[i][0] = str(molCSV.iloc[i][0]).strip()
             peptides.append([molCSV.iloc[i][0],Chem.MolFromSequence(molCSV.iloc[i][0])])
 
-        # removing invalids
-        peptides = pd.DataFrame(peptides).dropna()
+        # removing modified peptides
+        peptides = pd.DataFrame(mn(peptides))
 
         for i in range(len(peptides)):
             CSVresult.append(calc(peptides.iloc[i][1]))
