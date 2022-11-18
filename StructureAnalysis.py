@@ -15,10 +15,10 @@ baseFASTA = dir + '/data/pep.FASTA'
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
 def calc(mol):
-    logp = Descriptors.MolLogP(mol)
-    tpsa = Descriptors.TPSA(mol)
-    hba = Lipinski.NumHAcceptors(mol)
-    hbd = Lipinski.NumHDonors(mol)
+    logp = round(Descriptors.MolLogP(mol),3)
+    tpsa = round(Descriptors.TPSA(mol),3)
+    hba = round(Lipinski.NumHAcceptors(mol),3)
+    hbd = round(Lipinski.NumHDonors(mol),3)
     n = 0   # NN
     o = 0   # NO
     for atom in mol.GetAtoms():
