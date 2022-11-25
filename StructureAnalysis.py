@@ -1,93 +1,65 @@
-from rdkit import Chem
-from rdkit.Chem import Lipinski
-from rdkit.Chem import Descriptors
 import os
 import pandas as pd
-dir = os.getcwd()
+from Bio import SeqIO
+from rdkit import Chem
+from filter import mn
+from calcDescriptors import calc
 
 # data for test
-basePDB = dir + '/data/1pef.pdb'
-baseMol = dir + '/data/mol_files/BBB+/mol_18.mol'
-baseCSV = dir + '/data/brainPeps..csv'
-baseFASTA = dir + '/data/pep.FASTA'
+basePDB = os.getcwd() + '/data/1pef.pdb'
+baseMol = os.getcwd() + '/data/mol_files/BBB+/mol_18.mol'
+baseCSV = os.getcwd() + '/data/brainPeps..csv'
+baseFASTA = os.getcwd() + '/data/pep.FASTA'
 
 # descriptors to calculate
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
-# modified-natural peptides filter
-def mn(data):
-    oneLetterCode = ['A', 'R', 'N', 'D', 'B', 'C', 'E', 'Q', 'Z', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W',
-                     'Y', 'V']
-    peptides = [x for x in pd.read_csv(dir + '/data/brainPeps..csv').iloc[:, 0]]
-    natural = []
-    modified = []
-
-    for peptide in peptides:
-        if type(peptide) is str:
-            pep = list(peptide)
-            for letter in pep:
-                verify = letter in oneLetterCode
-            if verify is False:
-                modified.append(peptide)
-                pass
-            else:
-                natural.append(peptide)
-    return natural
-
-# descriptors calc (rdkit_mol)
-def calc(mol):
-    logp = round(Descriptors.MolLogP(mol),3)
-    tpsa = round(Descriptors.TPSA(mol),3)
-    hba = round(Lipinski.NumHAcceptors(mol),3)
-    hbd = round(Lipinski.NumHDonors(mol),3)
-    n = 0   # NN
-    o = 0   # NO
-    for atom in mol.GetAtoms():
-        if atom.GetSymbol() == 'N':
-            n += 1
-        elif atom.GetSymbol() == 'O':
-            o += 1
-    no = Lipinski.NOCount(mol)  # N+O
-
-    return [logp,tpsa,hba,hbd,n,o,no]
-
-# calculate descriptors by type
-def typeFilesCalc(data):
-    # extension file
+def typeFilesCalc(data, colPeptides = 0):
     ext = (os.path.basename(data)).split('.')[-1]
 
+    # for pdb files
     if ext == 'pdb':
-        molPDB = Chem.MolFromPDBFile(data)
-        PDBresult = pd.DataFrame(calc(molPDB)).T
-        PDBresult.columns = descriptors
-        return PDBresult.to_csv('results/PDBresult.csv',index=False)
+        chain = {record.id: record.seq for record in SeqIO.parse(data, 'pdb-seqres')}
+        for k, v in chain.items():
+            seqPDB = v
+            naturalPep = mn(seqPDB)
 
+        if naturalPep is not False:
+            molPDB = Chem.MolFromPDBFile(data)
+            PDBresult = pd.DataFrame(calc(molPDB)).T
+            PDBresult.columns = descriptors
+            return PDBresult.to_csv('results/PDBresult.csv', index=False)
+        else:
+            print("Error: Not natural peptide!")
+
+    # for mol files (cannot extract sequence for filter)
     elif ext == 'mol':
         molMol = Chem.MolFromMolFile(data)
         MOLresult = pd.DataFrame(calc(molMol)).T
         MOLresult.columns = descriptors
         return MOLresult.to_csv('results/MOLresult.csv',index=False)
 
+    # for csv files
     elif ext == 'csv':
+        data = baseCSV
+        colPeptides = 'onelettersequence' # if there is others columns, like id
+
         molCSV = pd.read_csv(data)
-        peptides = []
-        CSVresult = []
+        # molRdkit = []
+        results = []
 
         for i in range(len(molCSV)):
             # removing break lines
-            molCSV.iloc[i][0] = str(molCSV.iloc[i][0]).strip()
-            peptides.append([molCSV.iloc[i][0],Chem.MolFromSequence(molCSV.iloc[i][0])])
+            molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()
 
-        # removing modified peptides
-        peptides = pd.DataFrame(mn(peptides))
+        # only natural peptide
+        molCSV = [x for x in molCSV[colPeptides] if mn(x) is not None]
 
-        for i in range(len(peptides)):
-            CSVresult.append(calc(peptides.iloc[i][1]))
+        for i in range(len(molCSV)):
+            results.append(calc(Chem.MolFromSequence(molCSV[i])))
 
-        CSVresult = pd.DataFrame(CSVresult)
-        CSVresult = pd.concat([peptides[0],CSVresult], axis=1)
+        CSVresult = pd.concat([pd.DataFrame(molCSV), pd.DataFrame(results)], axis=1)
         CSVresult.columns = ['Peptide'] + descriptors
-
         return CSVresult.to_csv('results/CSVresult.csv', index=False)
 
     else:
@@ -96,4 +68,3 @@ def typeFilesCalc(data):
 typeFilesCalc(baseMol)
 typeFilesCalc(basePDB)
 typeFilesCalc(baseCSV)
-#------------------------------------------------
