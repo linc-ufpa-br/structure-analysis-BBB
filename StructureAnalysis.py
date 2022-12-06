@@ -8,8 +8,7 @@ from calcDescriptors import calc
 # data for test
 basePDB = os.getcwd() + '/data/1pef.pdb'
 baseMol = os.getcwd() + '/data/mol_files/BBB+/mol_18.mol'
-baseCSV = os.getcwd() + '/data/brainPeps..csv'
-baseFASTA = os.getcwd() + '/data/pep.FASTA'
+baseCSV = os.getcwd() + '/data/brainPeps.csv'
 
 # descriptors to calculate
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
@@ -46,9 +45,9 @@ def typeFilesCalc(data, colPeptides = 'peptides'):
         molCSV = pd.read_csv(data)
         results = []
 
-        '''for i in range(len(molCSV)):
+        for i in range(len(molCSV)):
             # removing break lines
-            molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()'''
+            molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()
 
         # only natural peptide
         molCSV = [x for x in molCSV[colPeptides] if naturalPepFilter(x) is not None]
@@ -58,11 +57,11 @@ def typeFilesCalc(data, colPeptides = 'peptides'):
 
         CSVresult = pd.concat([pd.DataFrame(molCSV), pd.DataFrame(results)], axis=1)
         CSVresult.columns = ['Peptide'] + descriptors
-        return CSVresult.to_csv('results/CSVresult.csv', index=False)
+        return CSVresult.to_csv('results/CSVresult2.csv', index=False)
 
     else:
         return 'Unsupported file type.'
 
-#typeFilesCalc(baseMol)
-#typeFilesCalc(basePDB)
-#typeFilesCalc(baseCSV,'onelettersequence')
+typeFilesCalc(baseMol)
+typeFilesCalc(basePDB)
+typeFilesCalc(baseCSV,'onelettersequence')
