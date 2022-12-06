@@ -1,0 +1,331 @@
+PID,name,seq-3L,seq-1L,label
+1,Vasopressin,Cys-Tyr-Phe-Gln-Asn-Cys-Pro-Arg-Gly,CYFQNCPRG,BBB-
+2,Oxytocin,Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly,CYIQNCPLG,BBB+
+3,Thyrotropin releasing hormone,Pyr-His-Pro,Pyr-HP,BBB+
+5,Octreotide,(D)Phe-Cys-Phe-(D)Trp-Lys-Thr-Cys-Thr,fCFwKTCT,BBB+
+6,Vapreotide,(D)Phe-Cys-Tyr-(D)Trp-Lys-Val-Cys-Trp-NH2,fCYwKVCW-NH2,BBB-
+7,Corticotropin-releasing hormone,Ser-Glu-Glu-Pro-Pro-Ile-Ser-Leu-Asp-Leu-Thr-Phe-His-Leu-Leu-Arg-Glu-Val-Leu-Glu-Met-Ala-Arg-Ala-Glu-Gln-Leu-Ala-Gln-Gln-Ala-His-Ser-Asn-Arg-Lys-Leu-Met-Glu-Ile-Ile,SEEPPISLDLTFHLLREVLEMARAEQLAQQAHSNRKLMEII,BBB-
+8,Pituitary adenylate cyclase-activating polypeptide-27,His-Ser-Asp-Gly-Ile-Phe-Thr-Asp-Ser-Tyr-Ser-Arg-Tyr-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-Tyr-Leu-Ala-Ala-Val-Leu-NH2,HSDGIFTDSYSRYRKQMAVKKYLAAVL-NH2,BBB+
+9,Pituitary adenylate cyclase-activating polypeptide-38,His-Ser-Asp-Gly-Ile-Phe-Thr-Asp-Ser-Tyr-Ser-Arg-Tyr-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-tyr-Leu-Ala-Ala-Val-Leu-Gly-Lys-Arg-Tyr-Lys-Gln-Arg-Val-Lys-Asn-Lys-NH2,HSDGIFTDSYSRYRKQMAVKKYLAAVLGKRYKQRVKNK-NH2,BBB+
+10,Vasoactive intestinal peptide,His-Ser-Asp-Ala-Val-Phe-Thr-Asp-Asn-Tyr-Thr-Arg-Leu-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-Tyr-Leu-Asn-Ser-Ile-Leu-Asn,HSDAVFTDNYTRLRKQMAVKKYLNSILN,BBB+
+11,Neuropeptide Y,Tyr-Pro- Ser-Lys -Pro-Asp-Asn-Pro-Gly-Glu-Asp-Ala - Pro-Ala -Glu-Asp-Leu-AIa-Arg-Tyr -Tyr- Ser-Ala-Leu-Arg-His-Tyr-Ile-Asn-Leu-Ile-Thr-Arg-Gln-Arg-Tyr,YPSKPDNPGEDAPAEDLARYYSALRHYINLITRQRY,BBB-
+14,Orexin A,Pyr-Pro-Leu-Pro-Asp-Cys-Cys-Arg-Gln-Lys-Thr-Cys-Ser-Cys-Arg-Leu-Tyr-Glu-Leu-Leu-His-Gly-Ala-Gly-Asn-His-Ala-Ala-Gly-Ile-leu-Thr-Leu-NH2,Pyr-PLPDCCRQKTCSCRLYELLHGAGNHAAGILTL-NH2,BBB-
+15,Orexin B,Arg-Pro-Gly-Pro-Pro-Gly-Leu-Gln-Gly-Arg-Leu-Gln-Arg-Leu-Leu-Gln-Ala-Asn-Gly-Asn-His-Ala-Ala-Gly-Ile-Leu-Thr-Met-NH2,RPGPPGLQGRLQRLLQANGNHAAGILTM-NH2,BBB-
+16,Exendin-4,His-Gly-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Leu-Ser-Lys-Gln-Met-Glu-Glu-Glu-Ala-Val-Arg-Leu-Phe-Ile-Glu-Trp-Leu-Lys-Asn-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser,HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS,BBB+
+17,"Phe<sup>13</sup>,Tyr<sup>19</sup>-Melanin concentrating hormone",Asp-Phe-Asp-Met-Leu-Arg-Cys-Met-Leu-Gly-Arg-Val-Phe-Arg-Pro-Cys-Trp-Gln-Tyr,DFDMLRCMLGRVFRPCWQY,BBB-
+18,"Deltorphin I, [D-Ala<sup>2</sup>]deltorphin I, Deltorphin C",Tyr-(D)Ala-Phe-Asp-Val-Val-Gly-NH2,YaFDVVG-NH2,BBB+
+19,"Deltorphin II, [D-Ala<sup>2</sup>]deltorphin II",Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH2,YaFEVVG-NH2,BBB+
+21,Adrenomedullin,Tyr-Arg-Gln-Ser-Met-Asn-Gln-Gly-Ser-Arg-Ser-Thr-Gly-Cys-Arg-Phe-Gly-Thr-Cys-Thr-Met-Gln-Lys-Leu-Ala-His-Gln-Ile-Tyr-Gln-Phe-Thr-Asp-Lys-Asp-Lys-Asp-Gly-Met-Ala-Pro-Arg-Asn-Lys-Ile-Ser-Pro-Gln-Gly-Tyr,YRQSMNQGSRSTGCRFGTCTMQKLAHQIYQFTDKDKDGMAPRNKISPQGY,BBB+
+22,Urocortin-I,Asp-Asp-Pro-Pro-Leu-Ser-Ile-Asp-Leu-Thr-Phe-His-Leu-Leu-Arg-Thr-Leu-Leu-Glu-Leu-Ala-Arg-Thr-Gln-Ser-Gln-Arg-Glu-Arg-Ala-Glu-Gln-Asn-Arg-Ile-Ile-Phe-Asp-Ser-Val-NH2,DDPPLSIDLTFHLLRTLLELARTQSQRERAEQNRIIFDSV-NH2,BBB-
+23,Insulin,A-chain: Gly-Ile-Val-Glu-Gln-Cys-Cys-Thr-Ser-Ile-Cys-Ser-Leu-Tyr-Gln-Leu-Glu-Asn-Tyr-Cys-Asn B-chain:Phe-Val-Asn-Gln-His-Leu-Cys-Gly-Ser-His-Leu-Val-Glu-Ala-Leu-Tyr-Leu-Val-Cys-Gly-Glu-Arg-Gly-Phe-Phe-Tyr-Thr-Pro-Lys-Thr,A-chain:GIVEQCCTSICSLYQLENYCN B-chain: FVNQHLCGSHLVEALYLVCGERGFFYTPKT,BBB+
+25,Ghrelin,Gly-Ser-Ser(Octanoyl)-Phe-Leu-Ser-Pro-Glu-His-Gln-Arg-Val-Gln-Gln-Arg-Lys-Glu-Ser-Lys-Lys-Pro-Pro-Ala-Lys-Leu-Gln-Pro-Arg,GSS(octanoyl)FLSPEHQRVQQRKESKKPPAKLQPR,BBB-
+27,Amylin,Lys-Cys-Asn-Thr-Ala-Thr-Cys-Ala-Thr-Gln-Arg-Leu-Ala-Asn-Phe-Leu-Val-Arg-Ser-Ser-Asn-Asn-Leu-Gly-Pro-Val-Leu-Pro-Pro-Thr-Asn-Val-Gly-Ser-Asn-Thr-Tyr,KCNTATCATQRLANFLVRSSNNLGPVLPPTNVGSNTY,BBB+
+28,[Tyr<sup>10</sup>] Secretin-27,His-Ser-Asp-Gly-Thr-Phe-Thr-Ser-Glu-Tyr-Ser-Arg-Leu-Arg-Asp-Ser-Ala-Arg-Leu-Gln-Arg-Leu-Leu-Gln-Gly-Leu-Val,HSDGTFTSEYSRLRDSARLQRLLQGLV,BBB+
+29,[Met<sup>5</sup>] Enkephalin,Tyr-Gly-Gly-Phe-Met,YGGFM,BBB+
+30,[Leu<sup>5</sup>] Enkephalin,Tyr-Gly-Gly-Phe-Leu,YGGFL,BBB+
+31,Endomorphin-1,Tyr-Pro-Trp-Phe-NH2,YPWF-NH2,BBB+
+32,"Endomorphin-2, Endomorphin II",Tyr-Pro-Phe-Phe-NH2,YPFF-NH2,BBB+
+33,β-Casomorphin-5,Tyr-Pro-Phe-Pro-Gly,YPFPG,BBB+
+36,Tyr-Trp-Melanocyt-stimulating hormone (MSH) release-inhibiting factor,Tyr-Pro-Trp-Gly-NH2,YPWG-NH2,BBB+
+37,Biphalin,Tyr-(D)Ala-Gly-Phe-NH-NH-Phe-Gly-(D)Ala-Tyr,YaGF-NH-NH-FGaY,BBB+
+38,D-Penicillamine-D-Penicillamine Enkephalin,Tyr-(D)Pen-Gly-Phe-(D)Pen,Y-Pen-GF-Pen,BBB-
+39,[Glu<sup>4</sup>] Deltorphin,Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH2,YaFEVVG-NH2,BBB+
+40,SAM 995,Tyr-(D)Thr-Gly-Phe-Leu-Ser-NH2,YtGFLS-NH2,BBB-
+41,SAM 1095,Tyr-(D)Thr-Gly-Phe-Leu-Ser(β-D-Glc)-NH2,YtGFLS-(β-D-Glc)-NH2,BBB-
+42,E2078,CH3-Tyr-Gly-Gly-Phe-Leu-Arg-CH3Arg-(D)Leu-NHC2H5,CH3-YGGFLR-CH3R-l-NHC2H5,BBB+
+43,Ebiratide,Met(O2)-Glu-His-Phe-(D)Lys-Phe-NH-CH2)8-NH2,M(O2)-EHFkF-NH-(CH2)8-NH2,BBB+
+44,Human Beta Defensin-1,Asp-His-Tyr-Asn-Cys-Val-Ser-Ser-Gly-Gly-Gln-Cys-Leu-Tyr-Ser-Ala-Cys-Pro-Ile-Phe-Thr-Lys-Ile-Gln-Gly-Thr-Cys-Tyr-Arg-Gly-Lys-Ala-Lys-Cys-Cys-Lys,DHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK,BBB+
+45,Human Beta Defensin-2,Gly-Ile-Gly-Asp-Pro-Val-Thr-Cys-Leu-Lys-Ser-Gly-Ala-Ile-Cys-His-Pro-Val-Phe-Cys-Pro-Arg-Arg-Tyr-Lys-Gln-Ile-Gly-Thr-Cys-Gly-Leu-Pro-Gly-Thr-Lys-Cys-Cys-Lys-Lys-Pro,GIGDPVTCLKSGAICHPVFCPRRYKQIGTCGLPGTKCCKKP,BBB+
+46,Delta sleep inducing peptide,Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu,WAGGDASGE,BBB+
+47,Pancreatic Polypeptide,Ala-Pro-Leu-Glu-Pro-Glu-Tyr-Pro-Gly-Asp-Asn-Ala-Thr-Pro-Glu-Gln-Met-Ala-Gln-Tyr-Ala-Ala-Glu-Leu-Arg-Arg-Tyr-Ile-Asn-Met-Leu-Thr-Arg-Pro-Arg-Tyr,APLEPEYPGDNATPEQMAQYAAELRRYINMLTRPRY,BBB+
+55,Epidermal growth factor,Asn-Ser-Asp-Ser-Glu-Cys-Pro-Leu-Ser-His-Asp-Gly-Tyr-Cys-Leu-His-Asp-Gly-Val-Cys-Met-Tyr-Ile-Glu-Ala-Leu-Asp-Lys-Tyr-Ala-Cys-Asn-Cys-Val-Val-Gly-Tyr-Ile-Gly-Glu-Arg-Cys-Gln-Tyr-Arg-Asp-Leu-Lys-Trp-Trp-Glu-Leu-Arg,NSDSECPLSHDGYCLHDGVCMYIEALDKYACNCVVGYIGERCQYRDLKWWELR,BBB+
+57,[Met(O)67]-(cocaine and amphetamine regulated transcript)-(55—102),Val-Pro-Ile-Tyr-Glu-Lys-Lys-Tyr-Gly-Gln-Val-Pro-Met(O)-Cys-Asp-Ala-Gly-Glu-Gln-Cys-Ala-Val-Arg-Lys-Gly-Ala-Arg-Ile-Gly-Lys-Leu-Cys-Asp-Cys-Pro-Arg-Gly-Thr-Ser-Cys-Asn-Ser-Phe-Leu-Leu-Lys-Cys-Leu,VPIYEKKYGQVPM(O)CDAGEQCAVRKGARIGKLCDCPRGTSCNSFLLKCL,BBB+
+58,Mahogany (1377-1428),Gly-Leu-Gly-Gly-Ile-Pro-Pro-Pro-Gly-Gln-Ser-Gly-Leu-Ala-Val-Ala-Ser-Ala-Leu-Val-Asp-Ile-Ser-Gln-Gln-Met-Pro-Ile-Val-Tyr-Lys-Glu-Lys-Ser-Gly-Ala-Val-Arg-Asn-Arg-Lys-Gln-Gln-Pro-Pro-Ala-Gln-Pro-Gly-Thr-Cys-Ile,GLGGIPPPGQSGLAVASALVDISQQMPIVYKEKSGAVRNRKQQPPAQPGTCI,BBB+
+59,Urocortin II,Val-Ile-Leu-Ser-Leu-Asp-Val-Pro-Ile-Gly-Leu-Leu-Arg-Ile-Leu-Leu-Glu-Gln-Ala-Arg-Tyr-Lys-Ala-Ala-Arg-Asn-Gln-Ala-Ala-Thr-Asn-Ala-Gln-Ile-Leu-Ala-His-Val,VILSLDVPIGLLRILLEQARYKAARNQAATNAQILAHV,BBB+
+60,Urocortin III,Phe-Thr-Leu-Ser-Leu-Asp-Val-Pro-Thr-Asn-Ile-Met-Asn-Leu-Leu-Phe-Asn-Ile-Ala-Lys-Ala-Lys-Asn-Leu-Arg-Ala-Gln-Ala-Ala-Ala-Asn-Ala-His-Leu-Met-Ala-Gln-Ile,FTLSLDVPTNIMNLLFNIAKAKNLRAQAAANAHLMAQI,BBB+
+61,Luteinizing hormone-releasing hormone,Pyr-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly,Pyr-HWSYGLRPG,BBB+
+64,Des-octanoyl ghrelin,Gly-Ser-Ser-Phe-Leu-Ser-Pro-Glu-His-Gln-Lys-Ala-Gln-Gln-Arg-Lys-Glu-Ser-Lys-Lys-Pro-Pro-Ala-Lys-Leu-Gln-Pro-Arg,GSSFLSPEHQKAQQRKESKKPPAKLQPR,BBB+
+66,Peptide YY (3-36),Ile-Lys-Pro-Glu-Ala-Pro-Gly-Glu-Asp-Ala-Ser-Pro-Glu-Glu-Leu-Asn-Arg-Tyr-Tyr-Ala-Ser-Leu-Arg-His-Tyr-Leu-Asn-Leu-Val-Thr-Arg-Gln-Arg-Tyr,IKPEAPGEDASPEELNRYYASLRHYLNLVTRQRY,BBB+
+67,α Melanocyte stimulating hormone,Ac-Ser-Tyr-Ser-Met-Glu-His-Phe-Arg-Trp-Gly-Lys-Pro-Val,Ac-SYSMEHFRWGKPV,BBB+
+69,p-[Cl-Phe<sup>4’4’</sup>] Biphalin,[Tyr-(D)Ala-Gly-(Cl)Phe-NH]2,YaG-(Cl)F-NH-NH-(Cl)F-GaY,BBB+
+70,JMV 2012,Lys-Lys-Pro-Tyr-Ile-Leu-Lys-Lys-Pro-Tyr-Ile-Leu,KKPYILKKPYIL,BBB+
+71,Glutathione,Glu-Cys-Gly,ECG,BBB+
+72,"[p-Cl-Phe<sup>4</sup>]-[(D)Pen<sup>2</sup>, (D)Pen<sup>5</sup>] Enkephalin",Tyr-(D)Pen-Gly-(Cl)Phe-(D)Pen,Y-(D)Pen-G-(Cl)F-(D)Pen,BBB+
+73,Enterostatin,Val–Pro–Asp–Pro–Arg,VPDPR,BBB+
+74,Connective tissue-activating peptide,(D)Phe-Cys-Tyr-(D)Trp-Arg-Thr-Pen-Thr-NH2,fCYwRT-Pen-T-NH2,BBB-
+75,LSZ 916,Tyr-(D)Cys-Gly-Phe-(D)Cys-Ser-Gly-NH2,YcGFcSG-NH2,BBB-
+76,LSZ 1025,Tyr-(D)Cys-Gly-Phe-(D)Cys-(β-D-Glucose)Ser-Gly-NH2,YcGFc-(β-D-Glc)SG-NH2,BBB-
+77,LSZ 62,Tyr-(D)Cys-Gly-Phe-(D)Cys-(α-D-Glucose)Ser-Gly-NH2,YcGFc-(α-D-Glc)SG-NH2,BBB-
+78,SAM 1025,Tyr-(D)Cys-Gly-Phe-(D)Cys-(β-D-Glucose) (D)Ser-Gly-NH2,YcGFc-(β-D-Glc)sG-NH2,BBB-
+79,SAM 1040,Tyr-(D)Cys-Gly-Phe-(D)Cys-(β-D-Xylose)Ser-Gly-NH2,YcGFc-(β-D-Xyl)SG-NH2,BBB-
+80,Dynorphin (1-13),Tyr-Gly-Gly-Phe-Leu-Arg-Arg-Ile-Arg-Pro-Lys-Leu-Lys,YGGFLRRIRPKLK,BBB-
+82,[Ser<sup>8</sup>] Glucagon-like peptide-1,His-Ala-Asp-Gly-Thr-Tyr-Thr-Ser-Asp-Val-Ser-Thr-Tyr-Leu-Gln-Asp-Gln-Ala-Ala-Lys-Asp-Phe-Val-Ser-Trp-Leu-Lys-Ser-Gly-Arg-Ala,HADGTYTSDVSTYLQDQAAKDFVSWLKSGRA,BBB+
+83,Cyclo (His-Pro),Cyclo (His-Pro),c(HP),BBB-
+85,Glycylsarcosine,Gly-Sar,G-Sar,BBB+
+90,"[(D)Ala<sup>2</sup>,(D)Leu<sup>5</sup>] Enkephalin",Tyr-(D)Ala-Gly-Phe-(D)Leu,YaGFl,BBB-
+91,DALDA,Tyr-(D)Arg-Phe-Lys,YrFK,BBB-
+93,"[(D)Ala<sup>2</sup>, (N-Me)Phe<sup>4</sup>, Gly-ol] Enkephalin",Tyr-(D)Ala-Gly-(N-Me)Phe-Gly-OH,YaG-(N-Me)F-G-OH,BBB+
+96,Teneurin C-terminal associated peptide,Gln-Gln-Leu-Leu-Gly-Thr-Gly-Arg-Val-Gln-Gly-Tyr-Asp-Gly-Tyr-Phe-Val-Leu-Ser-Val-Glu-Gln-Tyr-Leu-Glu-Leu-Ser-Asp-Ser-Ala-Asn-Asn-Ile-His-Phe-Met-Arg-Gln-Ser-Glu-Ile-NH2,QQLLGTGRVQGYDGYFVLSVEQYLELSDSANNIHFMRQSEI-NH2,BBB+
+97,Adrenocorticotropic hormone (4-9) analogue,Met-Glu-His-Phe-Arg-Trp,MEHFRW,BBB+
+98,Desglycinamide-arginine-vasopressin,Cys-Tyr-Phe-Gln-Asn-Cys-Pro-Arg,CYFQNCPR,BBB+
+99,Semax,Met-Glu-His-Phe-Pro-Gly-Pro,MEHFPGP,BBB+
+100,TAPA,Tyr-(D)Arg-Phe-βAla,YrF-βA,BBB-
+101,Substance P,Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2,RPKPQQFFGLM-NH2,BBB+
+102,Dalargin,Tyr-(D)Ala-Gly-Phe-Leu-Arg,YaGFLR,BBB+
+103,Kyotorphin,Tyr-Arg,YR,BBB+
+104,TAPS,Tyr-(D)Arg-Phe-Sar,YrFSar,BBB-
+105,TAPP,Tyr-(D)Ala-Phe-Phe-NH2,YaFF-NH2,BBB+
+106,CTOP,(D)Phe-Cys-Tyr-(D)Trp-Orn-Thr-Pen-Thr-NH2,fCYwOrnTPenT-NH2,BBB-
+110,Dermorphin,Tyr-(D)Ala-Phe-Gly-Tyr-Pro-Ser-NH2,YaFGYPS-NH2,BBB+
+113,mouse Obestatin,Phe-Asn-Ala-Pro-Phe-Asp-Val-Gly-Ile-Lys-Leu-Ser-Gly-Ala-Gln-Tyr-Gln-Gln-His-Gly-Arg- Ala-Leu-NH2,FNAPFDVGIKLSGAQYQQHGRAL-NH2,BBB+
+114,P41,(Me2)Tyr-(D)Arg-Phe-Lys-NH2,(Me2)Y-rFK-NH2,BBB-
+115,P42,(Me2)Tyr-(D)Arg-Phe-Nle-NH2,(Me2)Y-rF-Nle-NH2,BBB-
+116,P43,(Me2)Tyr-(D)cit-Phe-Lys-NH2,(Me2)Y-cit-FK-NH2,BBB-
+117,Sb-Aba,(Me<sub>2</sub>)Tyr-(D)Arg-Aba-Gly-NH2,(Me<sub>2</sub>)Y-r-Aba-G-NH2,BBB+
+121,Api88,Guan-Orn-Asn-Asn-Arg-Pro-Val-Tyr-Ile-Pro-Arg-Pro-Arg-Pro-Pro-His-Pro-Arg-Leu-NH2,Guan-ONNRPVYIPRPRPPHPRL-NH2,BBB-
+122,Apidaecin Api137,Guan-Orn-Asn-Asn-Arg-Pro-Va-Tyr-Ile-Pro-Arg-Pro-Arg-Pro-Pro-His-Pro-Arg-Leu,Guan-ONNRPVYIPRPRPPHPRL,BBB+
+130,Agouti-related protein  (83-132),Ser-Ser-Arg-Arg-Cys-Val-Arg-Leu-His-Glu-Ser-Cys-Leu-Gly-Gln-Gln-Val-Pro-Cys-Cys-Asp-Pro-Cys-Ala-Thr-Cys-Tyr-Cys-Arg-Phe-Phe-Asn-Ala-Phe-Cys-Tyr-Cys-Arg-Lys-Leu-Gly-Thr-Ala-Met-Asn-Pro-Cys-Ser-Arg-Thr-NH2,SSRRCVRLHESCLGQQVPCCDPCATCYCRFFNAFCYCRKLGTAMNPCSRT-NH2,BBB-
+131,RC-121,(D)Phe-Cys-Tyr-(D)Trp-Lys-Val-Cys-Thr-NH2,fCYwKVCT-NH2,BBB-
+132,RC-161,Ac-(D)Phe-Cys-Tyr-(D)Trp-Lys-Val-Cys-Thr-NH2,Ac-fCYwKVCT-NH2,BBB-
+133,[Lys<sup>7</sup>] Dermorphin,Tyr-D-Ala-Phe-Gly-Tyr-Pro-Lys,YaFGYPK,BBB+
+134,(3-methyl-His²) Thyrotropin-releasing Hormone,Pyr-(Me)His-Pro,Pyr-(Me)HP,BBB+
+135,SKB P5 (12),Dmt-D-Arg-Phe-(NMe)Lys-NH2,Dmt-rF-(NMe)K-NH2,BBB-
+136,AN110 (14),Dmt-D-Cit-Phe-NMeLys-NH2,Dmt-D-Cit-F-NMeK-NH2,BBB-
+137,Dmt<sup>1</sup>-Endomorphin 2,(Me2)Tyr-Pro-Phe-Phe-NH2,(Me2)YPFF-NH2,BBB+
+138,E-2078,(NMe)Tyr-Gly-Gly-Phe-Leu-Arg-(NMe)Arg-(D)Leu-NHC2H5,(NMe)YGGFLR(NMe)Rl-NHC2H5,BBB+
+139,ADAB,Nα-amidino-Tyr-(D)-Arg-Phe-bAla,Nα-amidino-YrFbA,BBB-
+140,ADAMB,Nα-amidino-Tyr-(D)-Arg-Phe-(Me)bAla,Nα-amidino-YrF(Me)bA,BBB-
+141,cationic AVP<sub>4-9</sub>,Pyr-Asn-(Cys-Pro-His-Arg)-Cys-Pro-Arg-Gly-NH2,Pyr-N(CPHR)CPRG-NH2,BBB-
+142,Acyloxyalkoxy-based cyclic DADLE,cyclo(Tyr-(D)-Ala-Gly-Phe-(D)Leu) linker: -COOCH2O-,cyclo(YaGFl) linker: -COOCH2O-,BBB-
+143,Coumarinic acid-based cyclic DADLE,cyclo(Tyr-(D)-Ala-Gly-Phe-(D)-Leu) linker: -COC=C-phenoxy-(coumarinic acid),cyclo(YaGFl) linker:  -COC=C-phenoxy-(coumarinic acid),BBB-
+144,Oxymethyl-modified coumarinic acid-based cyclic DADLE,cyclo(Tyr-(D)-Ala-Gly-Phe-(D)-Leu) linker: -COC=C-phenoxy-CH2O- (oxymethyl coumarinic acid),cyclo(YaGFl) linker:-COC=C-phenoxy-CH2O- (oxymethyl coumarinic acid),BBB-
+145,Dalargin-SS-SynB1,Tyr-(D)Ala-Gly-Phe-Leu-Arg-NHC2H4S-SC2H4NH-Arg-Gly-Gly-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe-Ser-Thr-Ser-Thr-Gly-Arg-NH2,YaGFLR-NHC2H4S-SC2H4NH-RGGRLSYSRRRFSTSTGR-NH2,BBB+
+146,Dalargin-SS-SynB3,Tyr-(D)Ala-Gly-Phe-Leu-Arg-NHC2H4S-SC2H4NH-Arg-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe-NH2,YaGFLR-C2H4S-SC2H4-RRLSYSRRRF-NH2,BBB+
+147,"[(1S,2R)-Acpc]²-Endomorphin 2","Tyr-(1S,2R)Acpc-Phe-Phe-NH2","Y-(1S,2R)Acpc-FF-NH2",BBB+
+148,"[(1S,2R)-Achc]²-Endomorphin 2","Tyr-(1S,2R)Achc-Phe-Phe-NH2","Y-(1S,2R)Achc-FF-NH2",BBB+
+149,Angiopep-1,Thr-Phe-Phe-Tyr-Gly-Gly-Cys-Arg-Gly-Lys-Arg-Asn-Asn-Phe-Lys-Thr-Glu-Glu-Tyr,TFFYGGCRGKRNNFKTEEY,BBB+
+150,Angiopep-2,Thr-Phe-Phe-Tyr-Gly-Gly-Ser-Arg-Gly-Lys-Arg-Asn-Asn-Phe-Lys-Thr-Glu-Glu-Tyr,TFFYGGSRGKRNNFKTEEY,BBB+
+151,Angiopep-5,Thr-Phe-Phe-Tyr-Gly-Gly-Ser-Arg-Gly-Lys-Arg-Asn-Asn-Phe-Arg-Thr-Glu-Glu-Tyr,TFFYGGSRGKRNNFRTEEY,BBB+
+152,Angiopep-7,Thr-Phe-Phe-Tyr-Gly-Gly-Ser-Arg-Gly-Arg-Arg-Asn-Asn-Phe-Arg-Thr-Glu-Glu-Tyr,TFFYGGSRGRRNNFRTEEY,BBB+
+153,Exendin-4-NH2,His-Gly-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Leu-Ser-Lys-Gln-Met-Glu-Glu-Glu-Ala-Val-Arg-Leu-Phe-Ile-Glu-Trp-Leu-Lys-Asn-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2,HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS-NH2,BBB+
+154,Oncocin,Val-Asp-Lys-Pro-Pro-Tyr-Leu-Pro-Arg-Pro-Arg-Pro-Pro-Arg-Arg-Ile-Tyr-Asn-Arg-NH2,VDKPPYLPRPRPPRRIYNR-NH2,BBB+
+155,Drosocin (unglycosylated),Gly-Lys-Pro-Arg-Pro-Tyr-Ser-Pro-Arg-Pro-Thr-Ser-His-Pro-Arg-Pro-Ile-Arg-Val,GKPRPYSPRPTSHPRPIRV,BBB+
+156,Drosocin Pro5Hyp (unglycosylated),Gly-Lys-Pro-Arg-4t-Hyp-Tyr-Ser-Pro-Arg-Pro-Thr-Ser-His-Pro-Arg-Pro-Ile-Arg-Val,GKPR-Hyp-YSPRPTSHPRPIR,BBB-
+157,LinS,Tyr-(D)Ala-Gly-Phe-(thiourea)Ala-NH2,YaGF-(thiourea)A-NH2,BBB+
+158,LinNMe,Tyr-(D)Ala-Gly-Phe-(Nω-methylguanidino)Ala-NH2,YaGF-(Nω-methylguanidino)A-NH2,BBB-
+159,CycS,Tyr-cyclo((D)Ala-Gly-Phe-Nω-methylguanidinoAla-)-NH2,Y-cyclo(aGF-(Nω-methylguanidino)A-)-NH2,BBB-
+160,CycNMe,Tyr-cyclo((D)Ala-Gly-Phe-Nω-methylguanidinoAla-)-NH2,Y-cyclo(aGF-(Nω-methylguanidino)A-)-NH2,BBB-
+161,mouse Ghrelin,Gly-Ser-Ser(Octanoyl)-Phe-Leu-Ser-Pro-Glu-His-Gln-Lys-Ala-Gln-Gln-Arg-Lys-Glu-Ser-Lys-Lys-Pro-Pro-Ala-Lys-Leu-Gln-Pro-Arg,GSS(octanoyl)FLSPEHQKAQQRKESKKPPAKLQPR,BBB-
+162,ANG1005,(2'-N-succinimide-paclitaxel)Thr-Phe-Phe-Tyr-Gly-Gly-Ser-Arg-Gly-(2'-N-succinimide-paclitaxel)Lys-Arg-Asn-Asn-Phe-(2'-N-succinimide-paclitaxel)Lys-Thr-Glu-Glu-Tyr,(2'-N-succinimide-paclitaxel)TFFYGGSRG-(2'-N-succinimide-paclitaxel)KRNNF(2'-N-succinimide-paclitaxel)KTEEY,BBB+
+163,Benzylpenicillin-SynB1,Benzylpenicillin-Arg-Gly-Gly-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe-Ser-Thr-Ser-Thr-Gly-Arg,Benzylpenicillin-RGGRLSYSRRRFSTSTGR,BBB+
+164,Doxorubicin-SynB1,Doxorubicin-linker-Arg-Gly-Gly-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe-Ser-Thr-Ser-Thr-Gly-Arg,Doxorubicin-linker-RGGRLSYSRRRFSTSTGR,BBB+
+165,Doxorubicin-(D)-Penetratin,Doxorubicin-linker-(D)Arg-(D)Gln-(D)Ile-(D)Lys-(D)Ile-(D)Trp-(D)Phe-(D)Gln-(D)Asn-(D)Arg-(D)Arg-(D)Met-(D)Lys-(D)Trp-(D)Lys-(D)Lys,Doxorubicin-linker-rqikiwfqnrrmkwkk,BBB+
+166,Doxorubicin-SynB3,Doxorubicin-linker-Arg-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe,Doxorubicin-linker-RRLSYSRRRF,BBB+
+167,Doxorubicin-(D)-SynB3,Doxorubicin-linker-(D)Arg-(D)Arg-(D)Leu-(D)Ser-(D)Tyr-(D)Ser-(D)Arg-(D)Arg-(D)Arg-(D)Phe,Doxorubicin-linker-rrlsysrrrf,BBB+
+168,SynB3,Arg-Arg-Leu-Ser-Tyr-Ser-Arg-Arg-Arg-Phe-NH2,RRLSYSRRRF-NH2,BBB+
+169,Tat 47-57,Tyr-Gly-Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg-NH2,YGRKKRRQRRR-NH2,BBB+
+170,pVEC,Leu-Leu-Ile-Ile-Leu-Arg-Arg-Arg-Ile-Arg-Lys-Gln-Ala-His-Ala-His-Ser-Lys-NH2,LLIILRRRIRKQAHAHSK-NH2,BBB+
+171,Transportan 10,Ala-Gly-Tyr-Leu-Leu-Gly-Lys-Ile-Asn-Leu-Lys-Ala-Leu-Ala-Ala-Leu-Ala-Lys-Lys-Ile-Leu-NH2,AGYLLGKINLKALAALAKKIL-NH2,BBB-
+172,TP10-2,Ala-Gly-Tyr-Leu-Leu-Gly-Lys-Ile-Asn-Leu-Lys-Pro-Leu-Ala-Ala-Leu-Ala-Lys-Lys-Ile-Leu-NH2,AGYLLGKINLKPLAALAKKIL-NH2,BBB-
+173,D-[Ala<sup>1</sup>]-peptide T-amide,(D)Ala-Ser-Thr-Thr-Thr-Asn-Tyr-Thr-NH<sub>2</sub>,aSTTTNYT-NH<sub>2</sub>,BBB+
+174,"NT1, Neurotensin<sup>8-13</sup> analog","(N<sup>α</sup>Me)Arg-Lys-(3,4-dehydro)Pro-Trp-tLeu-Leu","(N<sup>α</sup>Me)RK-(3,4-dehydro)PWtLL",BBB+
+175,N-Tyr-Delta Sleep Inducing Peptide,Tyr-Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu,YWAGGDASGE,BBB+
+176,Gastrin-releasing peptide,,,BBB+
+177,Arginine vasopressin,Cys-Tyr-Phe-Gln-Asn-Cys-Pro-Arg-Gly,CYFQNCPRG,BBB+
+178,Glucagon,,,BBB+
+179,N-Tyr-Corticotropin Releasing Factor,,,BBB+
+180,N-Tyr-Bovine Adrenal Medulla Dodecapeptide,,,BBB+
+181,N-Tyr-β-Endorphin,,,BBB+
+182,N-Tyr-Somatostatin,,,BBB+
+183,N-Tyr-Growth Hormone Releasing Factor,,,BBB+
+184,N-Tyr-Molluscan Cardioexcitatory Neuropeptide,,,BBB+
+185,N-Tyr-MIF-1,Tyr-Pro-Leu-Gly-NH<sub>2</sub>,YPLG-NH<sub>2</sub>,BBB+
+186,MIF-1,Pro-Leu-Gly-NH<sub>2</sub>,PLG-NH<sub>2</sub>,BBB+
+187,β-Amyloid<sub>1-28</sub>,Asp-Ala-Glu-Phe-Arg-His-Asp-Ser-Gly-Tyr-Gln-Val-His-His-Gln-Lys-Leu-Val-Phe-Phe-Ala-Glu-Asp-Val-Gly-Ser-Asn-Lys,DAEFRHDSGYQVHHQKLVFFAEDVGSNK,BBB+
+188,β-Amyloid<sub>1-40</sub>,DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVV,Asp-Ala-Glu-Phe-Arg-His-Asp-Ser-Gly-Tyr-Glu-Val-His-His-Gln-Lys-Leu-Val-Phe-Phe-Ala-Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly-Leu-Met-Val-Gly-Gly-Val-Val,BBB+
+189,"[D-Ala<sup>2</sup>,Ser<sup>4</sup>,D-Val<sup>5</sup>]deltorphin",Tyr-(D)Ala-Phe-Ser-(D)Val-Val-Gly-NH<sub>2</sub>,YaFSvVG-NH<sub>2</sub>,BBB-
+190,"[D-Ala<sup>2</sup>,Ser<sup>4</sup>,D-Ala<sup>5</sup>]deltorphin",Tyr-(D)Ala-Phe-Ser-(D)Ala-Val-Gly-NH<sub>2</sub>,YaFSaVG-NH<sub>2</sub>,BBB-
+191,"[D-Ala<sup>2</sup>,Gln<sup>4</sup>,D-Val<sup>5</sup>]deltorphin",Tyr-(D)Ala-Phe-Gln-(D)Val-Val-Gly-NH<sub>2</sub>,YaFQvVG-NH<sub>2</sub>,BBB-
+192,"[D-Ala<sup>2</sup>,Gln<sup>4</sup>,D-Ala<sup>5</sup>]deltorphin",Tyr-(D)Ala-Phe-Gln-(D)Ala-Val-Gly-NH<sub>2</sub>,YaFQaVG-NH<sub>2</sub>,BBB-
+193,"[Arg<sup>-1</sup>,Arg<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Arg-ArgTyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,RRYaFEVVG-NH<sub>2</sub>,BBB-
+194,"[Arg<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Arg-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,RYaFEVVG-NH<sub>2</sub>,BBB-
+195,"[Lys<sup>-1</sup>,Lys<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Lys-Lys-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,KKYaFEVVG-NH<sub>2</sub>,BBB+
+196,"[Lys<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Lys-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,KYaFEVVG-NH<sub>2</sub>,BBB-
+197,"[Ala<sup>-1</sup>,Pro<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Ala-Pro-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,APYaFEVVG-NH<sub>2</sub>,BBB-
+198,"[Pro<sup>-1</sup>,Pro<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Pro-Pro-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,PPYaFEVVG-NH<sub>2</sub>,BBB+
+199,"[Abu<sup>-1</sup>,Abu<sup>0</sup>,D-Ala<sup>2</sup>]deltorphin II",Abu-Abu-Tyr-(D)Ala-Phe-Glu-Val-Val-Gly-NH<sub>2</sub>,Abu-Abu-YaFEVVG-NH<sub>2</sub>,BBB+
+200,PEG-D-Penicillamine-D-Penicillamine Enkephalin,mPEG-Tyr-(D)Pen-Gly-Phe-D(Pen),mPEG-Y-pen-GF-pen,BBB+
+201,DPLPE-Phe-NH<sub>2</sub>,Tyr-(D)Pen-Gly-Phe-Pen-Phe-NH<sub>2</sub>,Y-pen-GF-Pen-F-NH<sub>2</sub>,BBB-
+202,DPLPE-Phe-OH,Tyr-(D)Pen-Gly-Phe-Pen-Phe,Y-pen-GF-Pen-F,BBB-
+203,p-[Cl-Phe<sup>4</sup>]DPLPE-Phe,Tyr-(D)Pen-Gly-pCl-Phe-Pen-Phe,Y-pen-G-pCl-F-Pen-F,BBB+
+204,p-[Br-Phe<sup>4</sup>]DPLPE-Phe,Tyr-(D)Pen-Gly-pBr-Phe-Pen-Phe,Y-pen-G-pBr-F-Pen-F,BBB+
+205,p-[F-Phe<sup>4</sup>]DPLPE-Phe,Tyr-(D)Pen-Gly-pF-Phe-Pen-Phe,Y-pen-G-pF-F-Pen-F,BBB-
+206,p-[I-Phe<sup>4</sup>]DPLPE-Phe,Tyr-(D)Pen-Gly-pI-Phe-Pen-Phe,Y-pen-G-pI-F-Pen-F,BBB-
+207,Guanidino-Endomorphin II,Guan-Tyr-Pro-Phe-Phe-NH<sub>2</sub>,Guan-YPFF-NH<sub>2</sub>,BBB+
+208,Morphiceptin,Tyr-Pro-Phe-Pro-NH<sub>2</sub>,YPFP-NH<sub>2</sub>,BBB+
+209,Guanidino-Morphiceptin,Guan-Tyr-Pro-Phe-Pro-NH<sub>2</sub>,Guan-YPFP-NH<sub>2</sub>,BBB+
+210,Phe<sup>0</sup>-DPDPE,Phe-Tyr-(D)Pen-Gly-Phe-D(Pen),FY-pen-GF-pen,BBB+
+211,DPDPE-Phe,Tyr-(D)Pen-Gly-Phe-D(Pen)-Phe,Y-pen-GF-pen-F,BBB+
+212,DPDPE-Arg-Gly,Tyr-(D)Pen-Gly-Phe-D(Pen)-Arg-Gly,Y-pen-GF-pen-RG,BBB+
+213,DPDPE-Phe-Ala-NH-(CH<sub>2</sub>)<sub>5</sub>-CONH<sub>2</sub>,Tyr-(D)Pen-Gly-Phe-D(Pen)-Phe-Ala-NH-(CH<sub>2</sub>)<sub>5</sub>-CONH<sub>2</sub>,Y-pen-GF-pen-FA-NH-(CH<sub>2</sub>)<sub>5</sub>-CONH<sub>2</sub>,BBB+
+214,DPLCE,Tyr-D(Pen)-Gly-Phe-Cys,Y-pen-GFC,BBB+
+215,DPLCE-Arg-Pro-Ala,Tyr-D(Pen)-Gly-Phe-Cys-Arg-Pro-Ala,Y-pen-GFCRPA,BBB+
+216,"Insulin detemir, Levemir®",A-chain:GIVEQCCTSICSLYQLENYCN B-chain: FVNQHLCGSHLVEALYLVCGERGFFYTPK-myristic acid,A-chain: Gly-Ile-Val-Glu-Gln-Cys-Cys-Thr-Ser-Ile-Cys-Ser-Leu-Tyr-Gln-Leu-Glu-Asn-Tyr-Cys-Asn B-chain:Phe-Val-Asn-Gln-His-Leu-Cys-Gly-Ser-His-Leu-Val-Glu-Ala-Leu-Tyr-Leu-Val-Cys-Gly-Glu-Arg-Gly-Phe-Phe-Tyr-Thr-Pro-Lys-myristic acid,BBB-
+217,"Ziconotide, SNX-111, Prialt®",Cys-Lys-Gly-Lys-Gly-Ala-Lys-Cys-Ser-Arg-Leu-Met-Tyr-Asp-Cys-Cys-Thr-Gly-Ser-Cys-Arg-Ser-Gly-Lys-Cys,CKGKGAKCSRLMYDCCTGSCRSGKC,BBB+
+218,SNX-194,Cys-Lys-Gly-Lys-Gly-Ala-Lys-Cys-Ser-Arg-Leu-Nle-Tyr-Asp-Cys-Cys-Thr-Gly-Ser-Cys-Arg-Ser-Gly-Lys-Cys,CKGKGAKCSRL-Nle-YDCCTGSCRSGKC,BBB-
+219,SNX-231,Cys-Lys-Gly-Lys-Gly-Ala-Hyp-Cys-Arg-Lys-Thr-Met-Tyr-Asp-Cys-Cys-Ser-Gly-Ser-Cys-Gly-Arg-Arg-Gly-Lys-Cys,CKGKGA-Hyp-CRKTMYDCCSGSCGRRGKC,BBB-
+220,SNX-185,Cys-Leu-Ser-Hyp-Gly-Ser-Ser-Cys-Ser-Hyp-Thr-Ser-Tyr-Asn-Cys-Cys-Arg-Ser-Cys-Asn-Hyp-Tyr-Ser-Arg-Lys-Cys-Arg,CLS-Hyp-GSSCS-Hyp-TSYNCCRSCN-Hyp-YSRKCR,BBB-
+221,THRPPMWSPVWP-NH<sub>2</sub>,Thr-His-Arg-Pro-Pro-Met-Trp-Ser-Pro-Val-Trp-Pro-NH<sub>2</sub>,THRPPMWSPVWP-NH<sub>2</sub>,BBB+
+222,T(NMe)H(NMe)RPPM(NMe)WSPVWP-NH<sub>2</sub>,Thr-(NMe)-His-(NMe)-Arg-Pro-Pro-Met-(NMe)-Trp-Ser-Pro-Val-Trp-Pro-NH<sub>2</sub>,T(NMe)H(NMe)RPPM(NMe)WSPVWP-NH<sub>2</sub>,BBB+
+223,thrppmwspvwp-NH<sub>2</sub>,(D)Thr-(D)His-(D)Arg-(D)Pro-(D)Pro-(D)Met-(D)Trp-(D)Ser-(D)Pro-(D)Val-(D)Trp-(D)Pro-NH<sub>2</sub>,thrppmwspvwp-NH<sub>2</sub>,BBB+
+224,pwvpswmpprht-NH<sub>2</sub>,(D)Pro-(D)Trp-(D)Val)-(D)Pro-(D)Ser-(D)Trp-(D)Met-(D)Pro-(D)Pro-(D)Arg-(D)His-(D)Thr-NH<sub>2</sub>,pwvpswmpprht-NH<sub>2</sub>,BBB+
+226,Opiorphin,Gln-Arg-Phe-Ser-Arg,QRFSR,BBB+
+227,des-Tyrosine<sup>1</sup>-D-Phenylalanine³-β-casomorphin,Pro-D-Phe-Pro-Gly,PFPG,BBB+
+228,Melanotan-II,Leu-Asp-His-D-Phe-Arg-Trp-Lys,LDHFRWK,BBB-
+229,PhrANTH2,Ser-Lys-Asp-Tyr-Asn,SKDYN,BBB-
+230,BIP-2,Gly-Leu-Trp-Glu-Asp-Leu-Leu-Tyr-Asn-Ile-Asn-Arg-Tyr-Ala-His-Tyr-Ile-Thr,GLWEDLLYNINRYAHYIT,BBB-
+231,PhrCACET1,Ser-Tyr-Pro-Gly-Trp-Ser-Trp,SYPGWSW,BBB+
+232,Neuromedin U,Tyr-Lys-Val-Asn-Glu-Tyr-Gln-Gly-Pro-Val-Ala-Pro-Ser-Gly-Gly-Phe-Phe-Leu-Phe-Arg-Pro-Arg-Asn,YKVNEYQGPVAPSGGFFLFRPRN,BBB+
+233,Neurotensin,pGlu-Leu-Tyr-Glu-Asn-Lys-Pro-Arg-Arg-Pro-Tyr-Ile-Leu,ELYENLPRRPYIL,BBB+
+234,Neuromedin N,Lys-Ile-Pro-Tyr-Ile-Leu,KIPYIL,BBB+
+235,Neuromedin B,Gly-Asn-Leu-Trp-Ala-Thr-Gly-His-Phe-Met-NH2,GNLWATGHFM,BBB-
+236,Arginine vasopressin 1-7,Cys-Tyr-Phe-Gln-Asn-Cys-Pro,CYFQNCP,BBB+
+237,Arginine vasopressin 1-6,Cys-Tyr-Phe-Gln-Asn-Cys,CYFQNC,BBB+
+238,[Ser7-O-βGlc]dermorphin,,YaFGYPS-NH2,BBB+
+239,[Ser7-O-βGlc(Ac)4]dermorphin,,YaFGYPS-NH2,BBB+
+240,[Ala7-C-αGal]dermorphin,,YaFGYPS-NH2,BBB+
+241,[Ala7-C-αGal(Ac)4]dermorphin,,YaFGYPS-NH2,BBB+
+242,gH625,His-Gly-Leu-Ala-Ser-Thr-Leu-Thr-Arg-Trp-Ala-His-Tyr-Asn-Ala-Leu-Ile-Arg-Ala,HGLASTLTRWAHYNALIRA,BBB+
+243,D1,D-Gln-D-Ser-D-His-D-Tyr-D-Arg-D-His-D-Ile-D-Ser-D-Pro-D-Ala-D-Gln-D-Val,qshyrhispaqv,BBB+
+244,D3,D-Arg-D-Pro-D-Arg-D-Thr-D-Arg-D-Leu-D-His-D-Thr-D-His-D-Arg-D-Asn-D-Arg,rprtrlhthrnr,BBB+
+245,Beauvericin,,,BBB+
+246,PepH1,,VQQLTKRFSL,BBB+
+247,PepH2,,KLFMALVAFLRFLT,BBB+
+248,PepH3,AGILKRW,,BBB+
+249,PepH4,,KSKAINVLRGFRKEIGRMLNILN,BBB+
+250,GPE,Gly-Pro-Glu,GPE,BBB+
+251,MEL-N1606,H-Dmt-D-NMeAla-Trp-(2-furyl)Map-NH2,,BBB+
+252,MEL-N1608,H-Dmt-D-NMeAla-Phe-(2-furyl)Map-NH2,,BBB+
+253,MEL1201,H-Tyr-Pro-Trp-(Ph)Map-NH2,,BBB+
+254,MEL1209,H-Tyr-Pro-Trp-(3-ClPh)Map-NH2,,BBB+
+255,MEL1214,H-Tyr-Pro-Trp-(2-furyl)Map-NH2,,BBB+
+256,MEL1224,H-Tyr-Pro-Trp-(3-furyl)Map-NH2,,BBB+
+257,PepNeg,Ser-Gly-Thr-Gln-Glu-Glu-Tyr,SGTQEEY,BBB+
+258,C-36,Dmt-c[D-Lys-Phe-Phe-Asp]NH2,cKFFD,BBB-
+259,F-81,Dmt-c[D-Lys-Phe-p-CF3-Phe-Asp]NH2,,BBB-
+260,LLVV-H4,Leu-Leu-Val-Val-Tyr-Pro-Trp-Thr,LLVVYPWT,BBB+
+261,LVV-H4,Leu-Val-Val-Tyr-Pro-Trp-Thr,LVVYPWT,BBB+
+262,VV-H4,Val-Val-Tyr-Pro-Trp-Thr,VVYPWT,BBB+
+263,VV-H7,Val-Val-Tyr-Pro-Trp-Thr-Gln-Arg-Phe,VVYPWTQRF,BBB+
+264,H7,Tyr-Pro-Trp-Thr-Gln-Arg-Phe,YPWTQRF,BBB+
+265,L57,Thr-Trp-Pro-Lys-His-Phe-Asp-Lys-His-Thr-Phe-Tyr-Ser-Ile-Leu-Lys-Leu-Gly-Lys-His,TWPKHFDKHTFYSILKLGKH,BBB+
+266,D3D3,Arg-Pro-Arg-Thr-Arg-Leu-His-Thr-His-Arg-Asn-Arg-Arg-Pro-Arg-Thr-Arg-Leu-His-Thr-His-Arg-Asn-Arg,rprtrlhthrnrrprtrlhthrnr,BBB-
+267,RD2D3,Pro-Thr-Leu-His-Thr-His-Asn-Arg-Arg-Arg-Arg-Arg-Arg-Pro-Arg-Thr-Arg-Leu-His-Thr-His-Arg-Asn-Arg,ptlhthnrrrrrrprtrlhthrnr,BBB-
+268,cRD2D3,Pro-Thr-Leu-His-Thr-His-Asn-Arg-Arg-Arg-Arg-Arg-Arg-Pro-Arg-Thr-Arg-Leu-His-Thr-His-Arg-Asn-Arg,ptlhthnrrrrrrprtrlhthrnr,BBB+
+269,AH-D,Ser-Gly-Ser-Trp-Leu-Arg-Asp-Val-Trp-Asp-Trp-Ile-Cys-Thr-Val-Leu-Thr-Asp-Phe-Lys-Thr-Trp-Leu-Gln-Ser-Lys-Leu,sGswlrdvwdwictvltdfktwlqskl,BBB+
+270,NT2,Cav-Arg-Pro-Tyr-Ile-Leu,Cav-RPYIL,BBB+
+271,NT4,Arg-Cav-Pro-Tyr-Ile-Leu,R-Cav-PYIL,BBB+
+272,Macrocyclic inhibitory peptide 2e,Cys-Gly-Phe-Leu-Gly-Gly-Arg-Arg-Arg-Gly-Phe-Gly-Gly-Ile-Gly-Gly-Cys,cGflGGrrrGfGGIGGc,BBB+
+273,Gly-Pro,Gly-Pro,GP,BBB+
+274,Tyr-Pro,Tyr-Pro,TP,BBB+
+275,mouse Des-octanoyl Ghrelin,Gly-Ser-Ser-Phe-Leu-Ser-Pro-Glu-His-Gln-Lys-Ala-Gln-Gln-Arg-Lys-Glu-Ser-Lys-Lys-Pro-Pro-Ala-Lys-Leu-Gln-Pro-Arg,GSSFLSPEHQKAQQRKESKKPPAKLQPR,BBB-
+276,ANK6,Arg-Lys-Arg-Ile-Arg-Leu-Val-Thr-Lys-Lys-Lys-Arg,rkrirlvtkkkr,BBB-
+277,tANK6,Arg-Lys-Arg-Ile-Arg-Leu-Val-Thr-Lys-Lys-Lys-Arg-Arg-Lys-Ile-Arg-Leu-Val-Thr-Lys-Lys-Lys-Arg,rkrirlvtkkkrrkrirlvtkkkr,BBB+
+278,cANK6r,Arg-Lys-Arg-Ile-Arg-Leu-Val-Thr-Lys-Lys-Lys-Arg-Arg,rkrirlvtkkkrr,BBB-
+279,PEP inhibitory peptide,Pro-Pro-Leu,PPL,BBB+
+280,OP5,Asn - Phe - Asp - Val - Leu - Thr - Glu - Gln,NFDVLTEQ,BBB+
+281,SLSHSPQ,Ser - Leu - Ser - His - Ser - Pro - Gln,SLSHSPQ,BBB+
+282,NTGSPYE,Asn - Thr - Gly - Ser - Pro - Tyr - Glu,NTGSPYE,BBB+
+287,Amyloid precursor protein derived peptide,Arg-Glu-Arg-Met-Ser,RERMS,BBB+
+290,P3,Ala-Gly-Ile-Leu-Lys-Arg-Trp-NH2,AGILKRW-NH2,BBB+
+292,P5,Ser-Gly-Thr-Gln-Glu-Glu-Tyr-NH2,SGTQEEY-NH2,BBB+
+302,THRre_2f,((D)Pro-(D)Trp-(D)Val-(D)Pro-(D)Ser-(D)Trp-(D)Met-(D)Pro-(D)Pro-(D)Arg-(D)His-(D)Thr)2Lys-Lys-Gly-Lys-Gly,(pwvpswmpprht)2KKGKG,BBB-
+303,THRre_1c,(D)Pro-(D)Trp-(D)Val-(D)Pro-(D)Ser-(D)Trp-(D)Met-(D)Pro-(D)Pro-(D)Arg-(D)His-(D)Thr-(D)-(D)Lys-(D)Lys-(D)Cys,pwvpswmpprhtkkc,BBB-
+304,THRre_2c,((D)Pro-(D)Trp-(D)Trp-(D)Pro-(D)Ser-(D)Trp-(D)Met-(D)Pro-(D)Pro-(D)Arg-(D)His-(D)Thr-O-Cys-O2)2-(D)Lys-(D)Lys-(D)Lys-(D)Cys,(pwwpswmpprht-O2Oc)2kkkc,BBB-
+305,p1,Ac-Phe-Phe-Phe-Phe-CONH2,Ac-FFFF-CONH2,BBB+
+306,p2,Ac-Phe-Phe-Phe-N-MePhe-CONH2,Ac-FFF-N-MeF-CONH2,BBB+
+307,p3,Ac-Phe-Phe-N-MePhe-Phe-CONH2,Ac-FF-N-MeFF-CONH2,BBB+
+308,p4,Ac-Phe-N-MePhe-Phe-Phe-CONH2,Ac-F-N-MeFFF-CONH2,BBB+
+309,p5,Ac-N-MePhe-Phe-Phe-Phe-CONH2,Ac-N-MeFFFF-CONH2,BBB+
+310,p6,Ac-Phe-Phe-N-MePhe-N-MePhe-CONH2,Ac-FF-N-MeF-N-MeF-CONH2,BBB-
+311,p7,Ac-Phe-N-MePhe-Phe-N-MePhe-CONH2,Ac-F-N-MeFF-N-MeF-CONH2,BBB+
+312,p8,Ac-N-MePhe-Phe-Phe-N-MePhe-CONH2,Ac-N-MeFFF-N-MeF-CONH2,BBB+
+313,p9,Ac-Phe-N-MePhe-N-MePhe-Phe-CONH2,Ac-F-N-MeF-N-MeFF-CONH2,BBB-
+314,p10,Ac-N-MePhe-Phe-N-MePhe-Phe-CONH2,Ac-N-MeFF-N-MeFF-CONH2,BBB+
+315,p11,Ac-N-MePhe-N-MePhe-Phe-Phe-CONH2,Ac-N-MeF-N-MeFFF-CONH2,BBB+
+316,p12,Ac-N-MePhe-N-MePhe-N-MePhe-Phe-CONH2,Ac-N-MeF-N-MeF-N-MeFF-CONH2,BBB+
+317,p13,Ac-N-MePhe-N-MePhe-Phe-N-MePhe-CONH2,Ac-N-MeF-N-MeFF-N-MeF-CONH2,BBB+
+318,p14,Ac-N-MePhe-Phe-N-MePhe-N-MePhe-CONH2,Ac-N-MeFF-N-MeF-N-meF-CONH2,BBB+
+319,p15,Ac-Phe-N-MePhe-N-MePhe-N-MePhe-CONH2,Ac-F-N-MeF-N-MeF-N-MeF-CONH2,BBB+
+320,p16,Ac-N-MePhe-N-MePhe-N-MePhe-N-MePhe-CONH2,Ac-N-MeF-N-MeF-N-MeF-N-MeF-CONH2,BBB+
+321,AGBBB015F,Cys-Gly-Gly-Lys-Thr-Phe-Phe-Tyr-Gly-Gly-Ser-Arg-Gly-Lys-Arg-Asn-Asn-Phe-Lys-Thr-Glu-Glu-Tyr,CGGKTFFYGGSRGKRNNFKTEEY,BBB+
+323,Regulon,His-Lys-Lys-Trp-Gln-Phe-Asn-Ser-Pro-Phe-Val-Pro-Arg-Ala-Asp-Glu-Pro-Ala-Arg-Lys-Gly-Lys-Val-His-Ile-Pro-Phe-Pro-Leu-Asp-Asn-Ile-Thr-Cys Arg-Val-Pro-Met-Ala-Arg-Glu-Pro-Thr-Val-Ile-His-Gly-Lys-Arg-Glu-Val-Thr-Leu-His -Leu-His-Pro-Asp-His,HKKWQFNSPFVPRADEPARKGKVHIPFPLDNITC RVPMAREPTVIHGKREVTLHLHPDH,BBB+
+324,Monocyclic 5Br,cyclo(Lys-(5Br)Trp-Lys-(5Br)Trp-(D)-Pro),cyclo(K(5Br)WK(5Br)Wp),BBB-
+325,Monocyclic 6Br,cyclo(Lys-(6Br)Trp-Lys-(6Br)Trp-(D)-Pro),cyclo(K(6Br)WK(6Br)Wp),BBB-
+326,Monocyclic 7Br,cyclo(Lys-(7Br)Trp-Lys-(7Br)Trp-(D)-Pro),cyclo(K(7Br)WK(7Br)Wp),BBB-
+327,Head-to-tail cyclic,cyclo(Lys-Trp-Tys-Trp-(D)-Pro),cyclo(KWKWp),BBB-
+328,Linear,H-Lys-Trp-Lys-Trp-(D)-Pro-OH,H-KWKWp-OH,BBB-
+329,"Bicyclic 5,5",cyclo(Lys-(5&)Trp-Lys-(5&)Trp-(D)-Pro),cyclo(K(5&)WK(5&)Wp),BBB+
+330,"Bicyclic 6,6",cyclo(Lys-(6&)Trp-Lys-(6&)Trp-(D)-Pro),cyclo(K(6&)WK(6&)Wp),BBB-
+331,"Bicyclic 7,7",cyclo(Lys-(7&)Trp-Lys-(7&)Trp-(D)-Pro),Cyclo(K(7&)WK(7&)Wp),BBB+
+332,,Gly-Leu-His-Thr-Ser-Ala-Thr-Asn-Leu-Tyr-Leu-His,GLHTSATNLYLH,BBB+
+333,,Val-Ala-Ala-Arg-Thr-Gly-Glu-Ile-Tyr-Val-Pro-Trp,VAARTGEIYVPW,BBB-
+334,,His-Leu-Tyr-Leu-Asn-Thr-Ala-Ser-Thr-His-Leu-Gly,HLYLNTASTHLG,BBB+
+335,,Trp-Pro-Val-Tyr-Ile-Glu-Gly-Thr-Arg-Ala-Ala-Val,WPVYIEGTRAAV,BBB+
+336,dynantin,"(2S)-2-methyl-3-(2, 6-dimethyl-4-hydroxyphenyl) propanoic acid-NH-Gly-Gly-Phe-Leu-Arg-Arg-Ile-Arg-Pro-Lys-NH2","(2S)-2-methyl-3-(2, 6-dimethyl-4-hydroxyphenyl) propanoic acid-NH-GGFLRRIRPKNH2",BBB-
+338,Scramble,Phe-Tyr-Asn-Arg-Gly-Asn-Thr-Lys-Tyr-Glu-Phe-Gly-Phe-Glu-Ser-Arg-Gly-Lys-Thr-OH,FYNRGNTKYEFGFESRGKT-OH,BBB+
+339,Che-ADAV,N-Cyclohexylethyl-NH-Ala-Asp-Ala-Val-COOH,N-Cyclohexylethyl-NH-ADAV-COOH,BBB+
+340,Che-AD(OMe)AV,N-Cyclohexylethyl-NH-Ala-OMeAsp-Ala-Val-COOH,N-Cyclohexylethyl-NH-A-OMeDAV-COOH,BBB+
+341,,Val-Val-Ile-Ala,VVIA,BBB+
+342,,Phe(4-F)-Val-Ile-Ala,F(4-F)-VIA,BBB+
+343,,N-Me-Phe-Val-Ile-Ala,N-MeFVIA,BBB+
+344,,Val-Oic-Ile-Ala with oic = octahyrdoindole-2-carboxylic acid,V-Oic-IA with Oic = octahyrdoindole-2-carboxylic acid,BBB+
+345,,Val-Val-N-Me-Ile-Ala,VV-N-MeIA,BBB+
+346,,Phe-Phe-Ile-Ala,FFIA,BBB+
+347,,Val-Tyr-Ala-Tyr-Met-Tyr-Ile-Leu-Trp-(D)-Ala-Gly-(D)-Ile-(D)-Leu-(D)-Lys-(D)-Arg-(D)-Trp,VYAYMYILWaGilkrw,BBB+
+348,,Val-Tyr-Ala-Tyr-Met-Tyr-Ile-Leu-Trp-(D)-Ser-(D)-Lys-(D)-Ser-(D)-Lys-(D)-Ser-(D)-Lys,VYAYMYILWsksksk,BBB+
+349,,(D)-Ala-Gly-(D)-Ile-(D)-Leu-(D)-Lys-(D)-Arg-(D)-Trp-Lys-Thr-Leu-Val-Leu-Ile-Leu-Val-Val,aGilkrwKTLVLILVV,BBB+
+350,,(D)-Ser-(D)-Lys-(D)-Ser-(D)-Lys-(D)-Ser-(D)-Lys-Lys-Thr-Leu-Val-Leu-Ile-Leu-Val-Val,skskskKTLVLILVV,BBB+
+351,,Ser-Ile-Trp-Val,SIWV,BBB+
+352,GM6,Phe-Ser-Arg-Tyr-Ala-Arg acetate salt,FSRYAR acetate salt,BBB+
+353,OFP006,Tyr-c[D-Cys-Gly-Phe-Cys]-Pro-Gln-Arg-Phe-NH2 with c = cyclic,"Y-c[cGFC]PQRF-NH2 with 1st c = cyclic, 2nd c = D-Cys",BBB-
+354,,Arg-Leu-Leu-Arg-Leu-Leu-Arg-Arg-Arg-Arg-Arg-Arg-Arg,RLLRLLRRRRRRR,BBB-
+355,,Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg,RRRRRRRRR,BBB-
+356,,Pro-Leu-Ile-Tyr-Leu-Arg-Leu-Leu-Arg-Gly-Gln-Trp-Cys,PLIYLRLLRGQWC,BBB-
+357,d-Ala4-DSIP-NH2,Trp-Ala-Gly-D-Ala-Asp-Ala-Ser-Gly-Glu-NH2,WAGaDASGE-NH2,BBB+
+358,des-Trp1-DSIP,Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu,AGGDASGE,BBB+
+359,D-Ala3-DSIP,Trp-Ala-d-Ala-Gly-Asp-Ala-Ser-Gly-Glu,WAaGDASGE,BBB+
+360,D-Ala4-DSIP,Trp-Ala-Gly-D-Ala-Asp-Ala-Ser-Gly-Glu,WAGaDASGE,BBB+
+361,Val(8)GLP-1,His-Ala-Asp-Gly-Thr-Tyr-Thr-Val-Asp-Val-Ser-Thr-Tyr-Leu-Gln-Asp-Gln-Ala-Ala-Lys-Asp-Phe-Val-Ser-Trp-Leu-Lys-Ser-Gly-Arg-Ala,HADGTYTVDVSTYLQDQAAKDFVSWLKSGRA,BBB+
+362,TAT-obestatin,Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg-Phe-Asn-Ala-Pro-Phe-Asp-Val-Gly-Ile-Lys-Leu-Ser-Gly-Val-Gln-Tyr-Gln-Gln-His-Ser-Gln-Ala-Leu,RKKRRQRRRFNAPFDVGIKLSGVQYQQHSQAL-NH2,BBB+
+363,liraglutide,His-Ala-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys AlaGluPheIleAlaTrpLeuValArgGlyArgGly,HAEGTFTSDVSSYLEGQAAKaEFIAWLVRGRG,BBB+
+364,Lixisenatide,HisGlyGluGlyThrPheThrSerAspLeuSerLysGlnMetGluGluGluAlaValArg Leu-Phe-Ile-Glu-Trp-Leu-Lys-Asn-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Ser-Lys-Lys-Lys-Lys-Lys-Lys-NH2,HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPSKKKKKK-NH2,BBB-
+365,Semaglutide,His-aminoisobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys-Glu-Phe-Ile-Ala-Trp-Leu-Val-Arg-Gly-Arg-Gly,H-aminoisobutyric acid-EGTFTSDVSSYLEGQAAKEFIAWLVRGRG,BBB+
+366,Sem-3,Pro + Gly-Pro + Pro-Gly-Pro,P +GP + PGP,BBB+
+367,Sem-4,Phe-Pro-Gly-Pro,FPGP,BBB+
+368,Sem-5,His-Phe-Pro-Gly-Pro,HFPGP,BBB+
+369,Sem-6,Glu-His-Phe-Pro-Gly-Pro,EHFPGP,BBB+
+370,Native DA,Tyr-aminoisobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Tyr-Leu-Asp-Lys-Gln-Ala-Ala-aminoisobutyric acid-Glu-Phe-Val-Asn-Trp-Leu-Leu-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-Cys-NH2,Y-aminoisobutyric acid-EGTFTSDYSIYLDKQAA-aminoisobutyric acid-EFVNWLLAGGPSSGAPPPSC-NH2,BBB-
+371,Acetylated DA,Tyr-aminoisobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Tyr-Leu-Asp-Lys-Gln-Ala-Ala-aminoisobutyric acid-Glu-Phe-Val-Asn-Trp-Leu-Leu-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-Lys-NH2,YXEGTFTSDYSIYLDKQAAXEFVNWLLAGGPSSGAPPPSK-NH2,BBB+
+372,DA3-CH,Tyr-aminoisobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Tyr-Leu-Asp-Lys-Gln-Ala-Ala-aminoisobutyric acid-Glu-Phe-Val-Asn-Trp-Leu-Leu-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-Lys-NH2,Y-aminosobutyric acid-EGTFTSDYSIYLDKQAA-aminoisobutyric acid- EFVNWLLAGGPSSGAPPPSK-NH2,BBB+
+373,DA-JC4,Tyr-aminosiobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Tyr-Leu-Asp-Lys-Gln-Ala-Ala-aminoisobutyric aicd-Glu-Phe-Val-Asn-Trp-Leu-Leu-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-Lys-Lys-Lys-Lys-Lys-Lys-NH2,YXEGTFTSDYSIYLDKQAAXEFVNWLLAGGPSSGAPPPSKKKKKK-NH2,BBB+
+375,,Tyr-Gly-Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg,YGRKKRRQRRR,BBB-
+376,Apidaecin,Ornithine-Asn-Asn-Arg-Pro-Val-Tyr-Ile-Pro-Arg-Pro-Arg-Pro-Pro-His-Pro-Arg-Leu-NH2,Ornithine-NNRPVYIPRPRPPHPRL-NH2,BBB-
+377,Amyloid beta 1-42,Asp-Ala-Glu-Phe-Arg-His-Asp-Ser-Gly-Tyr-Glu-Val-His-His-Gln-Lys-Leu-Val-Phe-Phe-Ala-Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly-Leu-Met-Val-Gly-Gly-Val-Val-Ile-Ala,DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA,BBB+
+378,dg-Bcan-Targeting Peptide 7,(D)-Thr-(D)-Lys-(D)-Trp-Gly-(D)-His-(D)-Val-(D)-Asn-(D)-Lys,tkwGhvnk,BBB+
+379,GCF,Gly-Cys-Phe,GCF,BBB+
+380,A7R,Ala-Thr-Trp-Leu-Pro-Pro-Arg,ATWLPPR,BBB+
+384,P15,Ac-Val-Gln-Ile-Thr-Tyr-Lys-NH2,Ac-VQITYK-NH2,BBB+
+385,P16,Ac-Val-Gln-Ile-Leu-Tyr-Lys-NH2,Ac-VQILYK-NH2,BBB+
+387,P18,Val-Gln-Ile-Val-Tyr-Lys-NH2,VQIVYK-NH2,BBB+
+388,P19,Val-Gln-Ile-Leu-Tyr-Lys-NH2,VQILYK-NH2,BBB+
+389,P20,Val-Gln-Ile-Tyr-Lys-NH2,VQIYK-NH2,BBB+
+390,P21,(D)-Val-(D)-Gln-(D)-Ile-(D)-Val-(D)-Tyr-(D)-Lys-NH2,vqivyk-NH2,BBB+
+391,11 poly-arginine,Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg,RRRRRRRRRRR,BBB+
+392,11 poly-glutamate,Glu-Glu-Glu-Glu-Glu-Glu-Glu-Glu-Glu-Glu-Glu,EEEEEEEEEEE,BBB+
+393,MMP-2200,Tyr-D-Thr-Gly-Phe-Leu-Ser(β-O-Glc)-CONH2,YtGFLS(β-O-Glc)-CONH2,BBB+
+394,BW443C,Tyr-D-Arg-Gly-Phe(4-NO2)-Pro-NH2,YrGF(4-NO2)-P-NH2,BBB+
+395,apamin,Cys-Asn-Cys-Lys-Ala-Pro-Glu-Thr-Ala-Leu-Cys-Ala-Arg-Arg-Cys-Gln-Gln-His-NH2,CNCKAPETALCARRCQQH-NH2,BBB-
+396,ApOO,Cys-Asn-Cys-Lys-Ala-Pro-Glu-Thr-Ala-Leu-Cys-Ala-Orn-Orn-Cys-Gln-Gln-His-NH2,CNCKAPETALCAOOCQQH-NH2,BBB-
+397,DA5-CH,Tyr-aminoisobutyric acid-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-Tyr-Leu-Asp-Lys-Gln-Ala-Ala-aminoisobutyric acid-Glu-Phe-Val-Asn-Trp-Leu-Leu-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-Lys-Arg-Arg-Gln-Arg-Arg-Lys-Lys-Arg-Gly-Tyr,YXEGTFTSDYSIYLDKQAA XEFVNWLLAGGPSSGAPPPSKRRQRRKKRGY-NH2,BBB+
+398,tetrapeptide 3,CH3CO-Tyr-Trp-Lys-4-methyl-gammabutyrolactone,CH3CO-YWK-4-methyl-gammabutyrolactone,BBB+

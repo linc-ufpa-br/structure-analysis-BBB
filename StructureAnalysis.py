@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from Bio import SeqIO
 from rdkit import Chem
-from filter import mn
+from filter import naturalPepFilter
 from calcDescriptors import calc
 
 # data for test
@@ -14,7 +14,7 @@ baseFASTA = os.getcwd() + '/data/pep.FASTA'
 # descriptors to calculate
 descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
-def typeFilesCalc(data, colPeptides = 0):
+def typeFilesCalc(data, colPeptides = 'peptides'):
     ext = (os.path.basename(data)).split('.')[-1]
 
     # for pdb files
@@ -22,7 +22,7 @@ def typeFilesCalc(data, colPeptides = 0):
         chain = {record.id: record.seq for record in SeqIO.parse(data, 'pdb-seqres')}
         for k, v in chain.items():
             seqPDB = v
-            naturalPep = mn(seqPDB)
+            naturalPep = naturalPepFilter(seqPDB)
 
         if naturalPep is not False:
             molPDB = Chem.MolFromPDBFile(data)
@@ -42,18 +42,16 @@ def typeFilesCalc(data, colPeptides = 0):
     # for csv files
     elif ext == 'csv':
         data = baseCSV
-        colPeptides = 'onelettersequence' # if there is others columns, like id
 
         molCSV = pd.read_csv(data)
-        # molRdkit = []
         results = []
 
-        for i in range(len(molCSV)):
+        '''for i in range(len(molCSV)):
             # removing break lines
-            molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()
+            molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()'''
 
         # only natural peptide
-        molCSV = [x for x in molCSV[colPeptides] if mn(x) is not None]
+        molCSV = [x for x in molCSV[colPeptides] if naturalPepFilter(x) is not None]
 
         for i in range(len(molCSV)):
             results.append(calc(Chem.MolFromSequence(molCSV[i])))
@@ -65,6 +63,6 @@ def typeFilesCalc(data, colPeptides = 0):
     else:
         return 'Unsupported file type.'
 
-typeFilesCalc(baseMol)
-typeFilesCalc(basePDB)
-typeFilesCalc(baseCSV)
+#typeFilesCalc(baseMol)
+#typeFilesCalc(basePDB)
+#typeFilesCalc(baseCSV,'onelettersequence')
