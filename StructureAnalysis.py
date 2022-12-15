@@ -55,13 +55,17 @@ def typeFilesCalc(data, colPeptides = 'peptides'):
         for i in range(len(molCSV)):
             results.append(calc(Chem.MolFromSequence(molCSV[i])))
 
+        if not os.path.exists("results"):
+            os.makedirs("results")
+
         CSVresult = pd.concat([pd.DataFrame(molCSV), pd.DataFrame(results)], axis=1)
         CSVresult.columns = ['Peptide'] + descriptors
-        return CSVresult.to_csv('results/CSVresult2.csv', index=False)
+        return CSVresult.to_csv('results/CSVresult.csv', index=False)
 
     else:
         return 'Unsupported file type.'
 
-typeFilesCalc(baseMol)
-typeFilesCalc(basePDB)
-typeFilesCalc(baseCSV,'onelettersequence')
+if __name__ == '__main__':
+    typeFilesCalc(baseMol)
+    typeFilesCalc(basePDB)
+    typeFilesCalc(baseCSV,'onelettersequence')
