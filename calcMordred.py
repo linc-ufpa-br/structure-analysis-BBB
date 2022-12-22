@@ -1,29 +1,36 @@
-from mordred import Calculator, descriptors ,TopoPSA,SLogP, AtomCount
-from mordred.Lipinski import HBondDonor, HBondAcceptor
+from mordred import Calculator, descriptors ,TopoPSA,SLogP, Weight
+import mordred
+from mordred import Lipinski
 from rdkit import Chem
 
 if __name__ == '__main__':
-    mol = Chem.MolFromSequence('TRSSRAGLQFPVGRVHRLLRK')
+    molecules = Chem.MolFromSequence('TRSSRAGLQFPVGRVHRLLRK')
 
     # all descriptors
-    def calcAllDescriptors(mol)
+    def calcAllDescriptors(mol):
         calc = Calculator(descriptors,ignore_3D=False)
         result = calc.pandas([mol])
         return result
 
-    # dichiara descriptors
-    logp = Calculator(SLogP)
-    tpsa = Calculator(TopoPSA)
-    AtomCount = Calculator(AtomCount)
-    HBondDonor = Calculator(HBondDonor)
-    HBondAcceptor = Calculator(HBondAcceptor)
+    # dichiara descriptors + weight
+    def calcDichiaraDescriptors(mol):
+        weight = Calculator(Weight)
+        logp = Calculator(SLogP)
+        tpsa = Calculator(TopoPSA)
+        AtomCount = Calculator(mordred.AtomCount)
+        HBondDonor = Calculator(Lipinski.HBondDonor)
+        HBondAcceptor = Calculator(Lipinski.HBondAcceptor)
 
-    print('tpsa\n',tpsa.pandas([molecules])['TopoPSA'],
-          '\n\nlogP\n',logp.pandas([molecules])['SLogP'],
-          '\n\nAtom Count\n',AtomCount.pandas([molecules])['nAtom'],
-          '\n\nNitrogen Count\n', AtomCount.pandas([molecules])['nN'],
-          '\n\nOxygen Count\n', AtomCount.pandas([molecules])['nO'],
-          '\n\nNitrogen + Oxygen Count\n', AtomCount.pandas([molecules])['nN'] + AtomCount.pandas([molecules])['nO'],
-          '\n\nHydrogen Bond Donor\n',HBondDonor.pandas([molecules]),
-          '\n\nHydrogen Bond Acceptor\n',HBondAcceptor.pandas([molecules])
-          )
+        resultWeight = round(float(weight.pandas([mol])['MW']),3)
+        resultLogp = round(float(logp.pandas([mol])['SLogP']),3)
+        resultTpsa = round(float(tpsa.pandas([mol])['TopoPSA']),3)
+        resultAtomCount = round(float(AtomCount.pandas([mol])['nAtom']),3)
+        resultNitrogenCount = round(float(AtomCount.pandas([mol])['nN']),3)
+        resultOxygenCount = round(float(AtomCount.pandas([mol])['nO']),3)
+        resultNOCount = round(float(AtomCount.pandas([mol])['nN'] + AtomCount.pandas([mol])['nO']),3)
+        resultHBondDonor = round(float(HBondDonor.pandas([mol])['nHBDon']),3)
+        resultHBondAcceptor = round(float(HBondAcceptor.pandas([mol])['nHBAcc']),3)
+
+        return[resultWeight,resultLogp,resultTpsa,resultAtomCount,resultNitrogenCount,resultOxygenCount,resultNOCount,resultHBondDonor,resultHBondAcceptor]
+
+    print(calcDichiaraDescriptors(molecules))
