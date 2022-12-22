@@ -3,11 +3,13 @@ from mordred.Lipinski import HBondDonor, HBondAcceptor
 from rdkit import Chem
 
 if __name__ == '__main__':
-    molecules = Chem.MolFromSequence('TRSSRAGLQFPVGRVHRLLRK')
+    mol = Chem.MolFromSequence('TRSSRAGLQFPVGRVHRLLRK')
 
     # all descriptors
-    #calc = Calculator(descriptors,ignore_3D=False)
-    #df_mordred = calc.pandas([molecules])
+    def calcAllDescriptors(mol)
+        calc = Calculator(descriptors,ignore_3D=False)
+        result = calc.pandas([mol])
+        return result
 
     # dichiara descriptors
     logp = Calculator(SLogP)
