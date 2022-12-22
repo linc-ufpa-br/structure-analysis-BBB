@@ -4,7 +4,7 @@ oneLetterCode = ['A', 'R', 'N', 'D', 'B',
                      'P','S','T', 'W','Y', 'V']
 
 # natural peptides filter (returns the sequence)
-def naturalPepFilter(peptide):
+def naturalPep(peptide):
     verify = True
     for letter in peptide:
         verify = letter in oneLetterCode
