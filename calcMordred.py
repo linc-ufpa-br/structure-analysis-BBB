@@ -9,7 +9,7 @@ def calcAllDescriptors(mol):
     return result
 
 # dichiara descriptors + weight
-def calcDichiaraDescriptors(mol):
+def calcSpecific(mol):
     weight = Calculator(Weight)
     logp = Calculator(SLogP)
     tpsa = Calculator(TopoPSA)
@@ -27,4 +27,4 @@ def calcDichiaraDescriptors(mol):
     resultHBondDonor = round(float(HBondDonor.pandas([mol])['nHBDon']),3)
     resultHBondAcceptor = round(float(HBondAcceptor.pandas([mol])['nHBAcc']),3)
 
-    return[resultWeight,resultLogp,resultTpsa,resultAtomCount,resultNitrogenCount,resultOxygenCount,resultNOCount,resultHBondDonor,resultHBondAcceptor]
+    return[resultWeight,resultLogp,resultTpsa,resultHBondAcceptor,resultHBondDonor,resultNitrogenCount,resultOxygenCount,resultNOCount]

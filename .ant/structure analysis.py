@@ -38,13 +38,13 @@ def typeFilesCalc(data):
         dataPDB = Chem.MolFromPDBFile(data)
         PDBresult = pd.DataFrame(calc(dataPDB)).T
         PDBresult.columns = descriptors
-        return PDBresult.to_csv('results/PDBresult.csv',index=False)
+        return PDBresult.to_csv('RdkitResults/PDBresult.csv',index=False)
 
     elif ext == 'mol':
         dataMol = Chem.MolFromMolFile(data)
         MOLresult = pd.DataFrame(calc(dataMol)).T
         MOLresult.columns = descriptors
-        return MOLresult.to_csv('results/MOLresult.csv',index=False)
+        return MOLresult.to_csv('RdkitResults/MOLresult.csv',index=False)
 
     elif ext == 'csv':
         dataCSV = pd.read_csv(data)
@@ -64,7 +64,7 @@ def typeFilesCalc(data):
 
         CSVresult = pd.DataFrame(CSVresult)
         CSVresult.columns = descriptors
-        return CSVresult.to_csv('results/1CSVresult.csv', index=False)
+        return CSVresult.to_csv('RdkitResults/1CSVresult.csv', index=False)
 
     else:
         return 'Unsupported file type.'
