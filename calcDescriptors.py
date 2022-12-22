@@ -104,7 +104,7 @@ def descriptorsMordred(data, colPeptides ='peptides', colKeep = None):
         results = []
 
         for i in range(len(molCSV)):
-            # removing break lines (don't always need)
+            # removing break lines (!don't always need!)
             molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()
 
         # only natural peptide
