@@ -2,6 +2,7 @@ from rdkit.Chem import Lipinski
 from rdkit.Chem import Descriptors
 
 def calc(mol):
+    weight = round(Descriptors.MolWt(mol),3)
     logp = round(Descriptors.MolLogP(mol),3)
     tpsa = round(Descriptors.TPSA(mol),3)
     hba = round(Lipinski.NumHAcceptors(mol),3)
@@ -15,4 +16,4 @@ def calc(mol):
             o += 1
     no = Lipinski.NOCount(mol)  # N+O
 
-    return [logp,tpsa,hba,hbd,n,o,no]
+    return [weight,logp,tpsa,hba,hbd,n,o,no]

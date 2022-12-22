@@ -11,7 +11,7 @@ baseMol = os.getcwd() + '/data/mol_files/BBB+/mol_18.mol'
 baseCSV = os.getcwd() + '/data/brainPeps.csv'
 
 # descriptors calculated in dichiara dataset
-descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
+descriptors = ['weight','logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
 # folder to save results
 if not os.path.exists("results"):
