@@ -1,12 +1,27 @@
-from mordred import Calculator, descriptors
+from mordred import Calculator, descriptors ,TopoPSA,SLogP, AtomCount
+from mordred.Lipinski import HBondDonor, HBondAcceptor
 from rdkit import Chem
-import os
 
 if __name__ == '__main__':
-    basePDB = os.getcwd() + '/data/1pef.pdb'
-    molecules = Chem.MolFromPDBFile(basePDB)
+    molecules = Chem.MolFromSequence('TRSSRAGLQFPVGRVHRLLRK')
 
-    calc = Calculator(descriptors,ignore_3D=True)
-    df_mordred = calc.pandas([molecules])
+    # all descriptors
+    #calc = Calculator(descriptors,ignore_3D=False)
+    #df_mordred = calc.pandas([molecules])
 
-    print(df_mordred)
+    # dichiara descriptors
+    logp = Calculator(SLogP)
+    tpsa = Calculator(TopoPSA)
+    AtomCount = Calculator(AtomCount)
+    HBondDonor = Calculator(HBondDonor)
+    HBondAcceptor = Calculator(HBondAcceptor)
+
+    print('tpsa\n',tpsa.pandas([molecules])['TopoPSA'],
+          '\n\nlogP\n',logp.pandas([molecules])['SLogP'],
+          '\n\nAtom Count\n',AtomCount.pandas([molecules])['nAtom'],
+          '\n\nNitrogen Count\n', AtomCount.pandas([molecules])['nN'],
+          '\n\nOxygen Count\n', AtomCount.pandas([molecules])['nO'],
+          '\n\nNitrogen + Oxygen Count\n', AtomCount.pandas([molecules])['nN'] + AtomCount.pandas([molecules])['nO'],
+          '\n\nHydrogen Bond Donor\n',HBondDonor.pandas([molecules]),
+          '\n\nHydrogen Bond Acceptor\n',HBondAcceptor.pandas([molecules])
+          )

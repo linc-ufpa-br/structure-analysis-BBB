@@ -9,6 +9,7 @@ def calc(mol):
     hbd = round(Lipinski.NumHDonors(mol),3)
     n = 0   # NN
     o = 0   # NO
+
     for atom in mol.GetAtoms():
         if atom.GetSymbol() == 'N':
             n += 1
