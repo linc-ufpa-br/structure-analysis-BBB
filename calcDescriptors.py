@@ -11,7 +11,7 @@ basePDB = os.getcwd() + '/data/1pef.pdb'
 baseMol = os.getcwd() + '/data/mol_files/BBB+/mol_18.mol'
 baseCSV = os.getcwd() + '/data/brainPeps.csv'
 
-# descriptors calculated in dichiara dataset
+# descriptors calculated in dichiara dataset + weight
 descriptors = ['weight','logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 
 # folder to save Rdkit Results
@@ -53,7 +53,7 @@ def descriptorsRdkit(data, colPeptides ='peptides', colKeep = None):
         results = []
 
         for i in range(len(molCSV)):
-            # removing break lines (don't always need)
+            # removing break lines (!don't always need!)
             molCSV.iloc[i][colPeptides] = str(molCSV.iloc[i][colPeptides]).strip()
 
         # only natural peptide
