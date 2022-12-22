@@ -25,7 +25,7 @@ def typeFilesCalc(data, colPeptides = 'peptides', colKeep = None):
         chain = {record.id: record.seq for record in SeqIO.parse(data, 'pdb-seqres')}
         for k, v in chain.items():
             seqPDB = v
-            naturalPep = naturalPep(seqPDB)
+            naturalPep = filter.naturalPep(seqPDB)
 
         if naturalPep is not False:
             molPDB = Chem.MolFromPDBFile(data)
@@ -59,7 +59,6 @@ def typeFilesCalc(data, colPeptides = 'peptides', colKeep = None):
         naturalmolCSV = pd.DataFrame(naturalmolCSV)
 
         for i in range(len(naturalmolCSV)):
-
             results.append(calc(Chem.MolFromSequence(naturalmolCSV[0][i])))
 
         if not os.path.exists("results"):
@@ -67,13 +66,12 @@ def typeFilesCalc(data, colPeptides = 'peptides', colKeep = None):
 
         CSVresult = pd.concat([naturalmolCSV, pd.DataFrame(results)], axis=1)
         CSVresult.columns = [colPeptides] + [colKeep] + descriptors
-        print(CSVresult[colKeep]==naturalmolCSV[1])
-        return CSVresult.to_csv('results/CSVresult1.csv', index=False)
-
+        print("The results refer only to natural peptides.")
+        return CSVresult.to_csv('results/CSVresult.csv', index=False)
     else:
         return 'Unsupported file type.'
 
 if __name__ == '__main__':
-    #typeFilesCalc(baseMol)
-    #typeFilesCalc(basePDB)
+    typeFilesCalc(baseMol)
+    typeFilesCalc(basePDB)
     typeFilesCalc(baseCSV,'onelettersequence','label')
