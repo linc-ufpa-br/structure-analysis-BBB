@@ -66,9 +66,6 @@ def descriptorsRdkit(data, colPeptides ='peptides', colKeep = None):
         for i in range(len(naturalmolCSV)):
             results.append(calc(Chem.MolFromSequence(naturalmolCSV[0][i])))
 
-        if not os.path.exists("RdkitResults"):
-            os.makedirs("RdkitResults")
-
         CSVresult = pd.concat([naturalmolCSV, pd.DataFrame(results)], axis=1)
         CSVresult.columns = [colPeptides] + [colKeep] + descriptors
         print("The Rdkit Results refer only to natural peptides.")
@@ -119,9 +116,6 @@ def descriptorsMordred(data, colPeptides ='peptides', colKeep = None):
 
         for i in range(len(naturalmolCSV)):
             results.append(calcSpecific(Chem.MolFromSequence(naturalmolCSV[0][i])))
-
-        if not os.path.exists("RdkitResults"):
-            os.makedirs("RdkitResults")
 
         CSVresult = pd.concat([naturalmolCSV, pd.DataFrame(results)], axis=1)
         CSVresult.columns = [colPeptides] + [colKeep] + descriptors
