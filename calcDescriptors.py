@@ -17,7 +17,7 @@ descriptors = ['logP', 'TPSA(Tot)', 'HBA', 'HBD', 'nN', 'nO', 'n(N+O)']
 if not os.path.exists("results"):
     os.makedirs("results")
 
-def typeFilesCalc(data, colPeptides = 'peptides', colKeep = None):
+def descriptorsRdkit(data, colPeptides ='peptides', colKeep = None):
     ext = (os.path.basename(data)).split('.')[-1]
 
     # for pdb files
@@ -72,6 +72,6 @@ def typeFilesCalc(data, colPeptides = 'peptides', colKeep = None):
         return 'Unsupported file type.'
 
 if __name__ == '__main__':
-    typeFilesCalc(baseMol)
-    typeFilesCalc(basePDB)
-    typeFilesCalc(baseCSV,'onelettersequence','label')
+    descriptorsRdkit(baseMol)
+    descriptorsRdkit(basePDB)
+    descriptorsRdkit(baseCSV, 'onelettersequence', 'label')
